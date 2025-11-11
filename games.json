@@ -1,0 +1,3743 @@
+[
+  {
+    "titulo": "Cats Hidden in Japan",
+    "ano_lancamento": 2025,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 0.5,
+    "conquistas_percentual": 100,
+    "nota_pessoal": 3,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam Family",
+    "icone_url": "https://shared.fastly.steamstatic.com/community_assets/images/apps/2700540/4391e0a71fd29f0bf0c3efef23eed95c065df722.jpg",
+    "capa_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2700540/library_600x900.jpg",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "20 Small Mazes",
+    "ano_lancamento": 2024,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 1,
+    "conquistas_percentual": 100,
+    "nota_pessoal": 5,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/c31232d80753ac7d78d5f444c98e2b14.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/2155669fd4629ccda1cb631e5ec41293.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Chants of Sennaar",
+    "ano_lancamento": 2023,
+    "data_zerado": 2024,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 100,
+    "nota_pessoal": 8,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "XBOX",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/1a0765221ce5d8a5c55dfaeb5321e8df.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/0bd598adf31ee8c136e8315ec5005af1.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Cuphead: Delicious Last Course",
+    "ano_lancamento": 2022,
+    "data_zerado": 2022,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 100,
+    "nota_pessoal": 7,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "DLC",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/894a200a66c2b57205af564d6883882a.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/25dcf1554f13c36b512dfe907acc77d3.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Kaze and the Wild Masks",
+    "ano_lancamento": 2021,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 18,
+    "conquistas_percentual": 100,
+    "nota_pessoal": 7,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/cd58acad2d1cc481f5b214e9e027d4b4.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/19bc68e4d19fb81c4fc9696191ad50ac.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "The Little Red Lie",
+    "ano_lancamento": 2021,
+    "data_zerado": 2021,
+    "tempo_jogo_horas": 1,
+    "conquistas_percentual": 100,
+    "nota_pessoal": 3,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/1e100442f232395796cea7e0d1ac3448.png",
+    "capa_url": "https://cdn.example.com/capa/default.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Twelve Minutes",
+    "ano_lancamento": 2021,
+    "data_zerado": 2024,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 100,
+    "nota_pessoal": 4,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "XBOX",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/d04cb95ba2bea9fd2f0daa8945d70f11.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/85b685bc3d1e7d1b3927e4692df397c0.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Unpacking",
+    "ano_lancamento": 2021,
+    "data_zerado": 2024,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 100,
+    "nota_pessoal": 8,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "XBOX",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/4fb68a3bcb11bde10e8821b55674278a.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/b0cee2630a31ae4c45e41a66b305fa2c.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "A Short Hike",
+    "ano_lancamento": 2020,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 5.6,
+    "conquistas_percentual": 100,
+    "nota_pessoal": 8,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/75b4f712b9a4860516a726646282d56a.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/7b815f14374af57daa6505c20ae445d2.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Alba: a Wildlife Adventure",
+    "ano_lancamento": 2020,
+    "data_zerado": 2023,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 100,
+    "nota_pessoal": 5,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Epic Games",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/18b8ea83d814103c4a8f379165ce9a62.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/66224119d2c9f45b8fcae8539e3d9d14.jpg",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Helltaker",
+    "ano_lancamento": 2020,
+    "data_zerado": 2021,
+    "tempo_jogo_horas": 4,
+    "conquistas_percentual": 100,
+    "nota_pessoal": 6,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/b147a61c1d07c1c999560f62add6dbc7.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/10b871d79644e50ba157bdfcf18a86b9.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Celeste",
+    "ano_lancamento": 2018,
+    "data_zerado": 2023,
+    "tempo_jogo_horas": 71,
+    "conquistas_percentual": 100,
+    "nota_pessoal": 9,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/f7e6c85504ce6e82442c770f7c8606f0.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/074aed57c243ae7020971ca7c9fe0f29.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Dark Souls Remastered",
+    "ano_lancamento": 2018,
+    "data_zerado": 2024,
+    "tempo_jogo_horas": 130,
+    "conquistas_percentual": 100,
+    "nota_pessoal": 9,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam Family",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/b1a59b315fc9a3002ce38bbe070ec3f5.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/9ff668f1e333e330caa16fbc737d6038.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Gris",
+    "ano_lancamento": 2018,
+    "data_zerado": 2024,
+    "tempo_jogo_horas": 9.7,
+    "conquistas_percentual": 100,
+    "nota_pessoal": 8,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/0a7c5acfd5d2e3f8c5efb3a9f9f465f3.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/0a0b8d534f5abd23a9f8d91d46b125a9.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Return of the Obra DInn",
+    "ano_lancamento": 2018,
+    "data_zerado": 2024,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 100,
+    "nota_pessoal": 9,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Pirata",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/7a6cf796456b6d7c4c2bde93dd17c682.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/a8332c3cfa5211ee092650a92021d8a7.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Crash Bandicoot (N-Sane Trilogy))",
+    "ano_lancamento": 2017,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 34.3,
+    "conquistas_percentual": 100,
+    "nota_pessoal": 8,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Ports",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/ac1a3989c5a67c4a5b3c5e9bba557fc4.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/b646ea54ac79ecccad02e1948a721369.jpg",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Cuphead",
+    "ano_lancamento": 2017,
+    "data_zerado": 2022,
+    "tempo_jogo_horas": 84.9,
+    "conquistas_percentual": 100,
+    "nota_pessoal": 8,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/894a200a66c2b57205af564d6883882a.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/9a54a33bda21279ea4f263e567096ba1.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Hollow Knight",
+    "ano_lancamento": 2017,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 240,
+    "conquistas_percentual": 100,
+    "nota_pessoal": 10,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/602d1305678a8d5fdb372271e980da6a.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/d18c832e8c956b4ef8b92862e6bf470d.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "What Remains of Edith Finch",
+    "ano_lancamento": 2017,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 2,
+    "conquistas_percentual": 100,
+    "nota_pessoal": 7,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/1373b284bc381890049e92d324f56de0.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/22dcf0f4f3413489593f19a6b7c3a25d.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Rusty Lake Hotel",
+    "ano_lancamento": 2016,
+    "data_zerado": 2022,
+    "tempo_jogo_horas": 2.2,
+    "conquistas_percentual": 100,
+    "nota_pessoal": 1,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/62e0973455fd26eb03e91d5741a4a3bb.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/248210163abcc765cc4b37cf971ef792.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "The Room Two",
+    "ano_lancamento": 2016,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 2.5,
+    "conquistas_percentual": 100,
+    "nota_pessoal": 4,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/2c62579aca22484241593050908a30be.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/caef95bf20ab8a304cb9feae0ef560f1.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "DISTRAINT: Deluxe Edition",
+    "ano_lancamento": 2015,
+    "data_zerado": 2021,
+    "tempo_jogo_horas": 4,
+    "conquistas_percentual": 100,
+    "nota_pessoal": 4,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/405e28906322882c5be9b4b27f4c35fd.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/9e61b8c53dd6201d0a9216fd9c341eb8.jpg",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Minecraft: Story Mode",
+    "ano_lancamento": 2015,
+    "data_zerado": 2000,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 100,
+    "nota_pessoal": 3,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Pirata",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/2300185b0bff4325266c5d7d360a114c.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/7a42d04dbcdcccece898bfbc2bb6d326.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "SOMA",
+    "ano_lancamento": 2015,
+    "data_zerado": 2000,
+    "tempo_jogo_horas": 9,
+    "conquistas_percentual": 100,
+    "nota_pessoal": 6,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/392c071fb32b1da665da55ceda711c43.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/8ecdbbf4ca2a3715337c02cb8d2ea4cc.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Tomb Raider (2013)",
+    "ano_lancamento": 2013,
+    "data_zerado": 2024,
+    "tempo_jogo_horas": 50.6,
+    "conquistas_percentual": 100,
+    "nota_pessoal": 8,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/34be90676412d14c80f85809d8e3b97b.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/7104a507b29ff645821565db36014504.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Counter Strike 2",
+    "ano_lancamento": 2012,
+    "data_zerado": 2024,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 100,
+    "nota_pessoal": 5,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Sem Fim",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/fe772ff1261b820e437821342b445539.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/0662aa1719017e0efa5fa8daf0880c6e.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Far Cry 3",
+    "ano_lancamento": 2012,
+    "data_zerado": 2022,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 100,
+    "nota_pessoal": 10,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Ubisoft",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/1ef03ed0cd5863c550128836b28ec3e9.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/00c9157a614a13927382c42cc26dbfd4.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "The Room",
+    "ano_lancamento": 2012,
+    "data_zerado": 2021,
+    "tempo_jogo_horas": 2.5,
+    "conquistas_percentual": 100,
+    "nota_pessoal": 5,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/9330944a9bf275cc794f08f00cb364d0.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/5fec640a1bd24b0c4ff1f9ab2ebd6493.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "The Walking Dead",
+    "ano_lancamento": 2012,
+    "data_zerado": 2022,
+    "tempo_jogo_horas": 12.2,
+    "conquistas_percentual": 100,
+    "nota_pessoal": 9,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/1509c5822b3f60050ebd79dbc1343b06.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/2c7b18e387e5d3a2dbbae05fc7e740ef.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Resident Evil 4 (UHD)",
+    "ano_lancamento": 2005,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 45,
+    "conquistas_percentual": 100,
+    "nota_pessoal": 7,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Ports",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/9778d5d219c5080b9a6a17bef029331c.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/46cc597bae1fee3cd19314f32c6cb4f0.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Pokemon Fire Red",
+    "ano_lancamento": 2004,
+    "data_zerado": 2021,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 100,
+    "nota_pessoal": 8,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "GBA",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/ae5314a8da1e6872ec5b45d207e97671.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/83771e72436027bb8ebf840a2d83130d.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Overwatch 2",
+    "ano_lancamento": 2023,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 14,
+    "conquistas_percentual": 12,
+    "nota_pessoal": 6,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "semfim",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/f812eab186eb17d72275bb38b918913d.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/f8013fd6d898ca4374d8113f0939c70c.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "TYPECAST",
+    "ano_lancamento": 2023,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 0.2,
+    "conquistas_percentual": 5,
+    "nota_pessoal": 1,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Sem Fim",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/9eacf80c8de88519fb56590e86cbf541.png",
+    "capa_url": "https://cdn.example.com/capa/default.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Cookie Clicker",
+    "ano_lancamento": 2021,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 1757.1,
+    "conquistas_percentual": 88,
+    "nota_pessoal": 5,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Sem Fim",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/806c0bf65a5cc8e89564ac7391bb3f76.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/c99405c391f2e15f092d6d879de34f1c.jpg",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Valorant",
+    "ano_lancamento": 2020,
+    "data_zerado": 2022,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 3,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Sem Fim",
+    "plataforma": "Windows",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/191c62d342811d1a0d3d0528ec35cd2d.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/9edb6b9b7fc3b263b86740c635839dc4.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Virtual Cottage",
+    "ano_lancamento": 2020,
+    "data_zerado": 2020,
+    "tempo_jogo_horas": 2.4,
+    "conquistas_percentual": 37,
+    "nota_pessoal": 4,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Sem Fim",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/e7da6f05f908822fcb5796464baf196b.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/406cccdc7ea16882324be00e8e2035e7.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Paladins",
+    "ano_lancamento": 2018,
+    "data_zerado": 2000,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 2,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Sem Fim",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/3e313b9badf12632cdae5452d20e1af6.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/f6847b65d902ae32898e3199b6128444.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Tetris (Android)",
+    "ano_lancamento": 2018,
+    "data_zerado": 2024,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 4,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Sem Fim",
+    "plataforma": "Android",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/c9758b9ceb9543ef87d38e31dc03a8fd.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/4ea8982596915ae3bf5e9dc46e17222c.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Superflight",
+    "ano_lancamento": 2017,
+    "data_zerado": 2021,
+    "tempo_jogo_horas": 0.5,
+    "conquistas_percentual": 54,
+    "nota_pessoal": 3,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Sem Fim",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/f29b38f160f87ae86df31cee1982066f.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/a8dc789d080f46e88e01e744a7c55e01.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Ultimate Chicken Horse",
+    "ano_lancamento": 2016,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 6,
+    "conquistas_percentual": 35,
+    "nota_pessoal": 6,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Sem Fim",
+    "plataforma": "Steam Family",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/414bec0a996ed32f9183ce8a86c40e0f.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/f022483ac03b5a03feb038e858cf298c.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "SMITE",
+    "ano_lancamento": 2015,
+    "data_zerado": 2000,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 3,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Sem Fim",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/21ce689121e39821d07d04faab328370.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/df182342f761a3795c0c8cfad378c7a4.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Crossy Roads",
+    "ano_lancamento": 2014,
+    "data_zerado": 2000,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 5,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Sem Fim",
+    "plataforma": "Android",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/d69bc0b1aeafcc63c7d99509a65e0492.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/771ccb8076f1e0267f2497c2c9b2ddb1.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "League of Legends",
+    "ano_lancamento": 2009,
+    "data_zerado": 2000,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 1,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Sem Fim",
+    "plataforma": "Windows",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/882137f311c5728f8e257e56820af92c.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/cf29ee336b07c0572c810f62f5543525.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Team Fortress 2",
+    "ano_lancamento": 2007,
+    "data_zerado": 2000,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 5,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Sem Fim",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/d35a34476be067a04fa756c8c0b7dfbd.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/f64230dace882ba8b2d14ebfd24dc0a3.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Garry's Mod",
+    "ano_lancamento": 2006,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 38,
+    "conquistas_percentual": 20,
+    "nota_pessoal": 8,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Sem Fim",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/5f2397a240ce3565d4d3b82b0db2fc65.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/a2a9894ca446f0fe0aac693516c52c4d.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Tetris (Famicon)",
+    "ano_lancamento": 1998,
+    "data_zerado": 2024,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 4,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Sem Fim",
+    "plataforma": "Pirata",
+    "icone_url": "https://cdn.example.com/icon/default.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/da2f5c70767a018829cb65f26d72fb8b.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Tetris Attack",
+    "ano_lancamento": 1995,
+    "data_zerado": 2020,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 5,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Sem Fim",
+    "plataforma": "NES",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/dd409260aea46a90e61b9a69fb9726ef.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/8800e20f00ec2190a27d9410111809ef.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Dr. Mario",
+    "ano_lancamento": 1990,
+    "data_zerado": 2020,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 6,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Sem Fim",
+    "plataforma": "NES",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/3b1aea5d9bb84d4e3761853af83cb32c.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/1b185660481de822df4d173fbdb90908.png",
+    "review": "Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente.Review pendente."
+  },
+  {
+    "titulo": "Duck Hunt",
+    "ano_lancamento": 1984,
+    "data_zerado": 2000,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 1,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Sem Fim",
+    "plataforma": "NES",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/6b59f92676fd007e9cc45d7f3fdd51f4.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/4bacc838ddc9c49b8cd9bae84680c583.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Mario Bros.",
+    "ano_lancamento": 1983,
+    "data_zerado": 2021,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 2,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Sem Fim",
+    "plataforma": "NES",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/07be74f1a1b5e0a89a5f78ce1725a7eb.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/26b8f6c573b95ec1d442a65c6392f87e.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Donkey Kong",
+    "ano_lancamento": 1981,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 2,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Sem Fim",
+    "plataforma": "NES",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/21e8cadba9839cd22bc29597866632e3.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/2feff4d998eb08c295cdecc02c3fb213.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Frogger",
+    "ano_lancamento": 1981,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 2,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Sem Fim",
+    "plataforma": "NES",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/7520fa31d14f45add6d61e52df5a03ff.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/2241a3a0b24471b74968ce9224785975.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Ms. PAC-MAN",
+    "ano_lancamento": 1981,
+    "data_zerado": 2000,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 1,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Sem Fim",
+    "plataforma": "NES",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/0a3c79e912ed10a932239ea1af3aa9d3.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/4a8d2878a1ffe32070100ea57573218d.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "PAC-MAN",
+    "ano_lancamento": 1980,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 3,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Sem Fim",
+    "plataforma": "NES",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/7269551457062ac80044ae5e0fb1b882.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/8483b3a2bdad04d76a370657ccde2675.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "HoloCure - Save the Fans!",
+    "ano_lancamento": 2022,
+    "data_zerado": 2023,
+    "tempo_jogo_horas": 19,
+    "conquistas_percentual": 32,
+    "nota_pessoal": 6,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Sem Fim",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/b2c1a4c8e4f9c3f8efe19a903a005149.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/65976dc78a95df12e73f050acff0207a.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "The Sims 4",
+    "ano_lancamento": 2014,
+    "data_zerado": 2022,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 5,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Sem Fim",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/bca382c81484983f2d437f97d1e141f3.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/aeb677b971d71e2c19ebd36fdbd839e9.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "A Game About Digging A Hole",
+    "ano_lancamento": 2025,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 1.5,
+    "conquistas_percentual": 10,
+    "nota_pessoal": 4,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/3b146217fedc75f4c9d7cf1c4777c32b.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/828a578e1bb714e5956303f05b6f9f67.jpg",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Hollow Knight: Silksong",
+    "ano_lancamento": 2025,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 140,
+    "conquistas_percentual": 92,
+    "nota_pessoal": 10,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/f0e95622d20a747e93f5403e5193b155.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/a4c450d525acc944630398eb55bdca70.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Blasphemous 2: Mea Culpa",
+    "ano_lancamento": 2024,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 5,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "DLC",
+    "plataforma": "Steam Family",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/ea3840c049893ef0051edf8bb6fa23f8.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/ae59a21710f1a254098b27a3ae7ef91b.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Resident Evil 4 (Project HD)",
+    "ano_lancamento": 2024,
+    "data_zerado": 2024,
+    "tempo_jogo_horas": 45,
+    "conquistas_percentual": 100,
+    "nota_pessoal": 9,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/9778d5d219c5080b9a6a17bef029331c.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/46cc597bae1fee3cd19314f32c6cb4f0.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Super Mario Party Jamboree",
+    "ano_lancamento": 2024,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 8,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Switch",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/36630d466cace25dae4653947bb0fd30.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/d8990f79de598c52139e95e819c86c8c.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "The NOexistenceN of you AND me",
+    "ano_lancamento": 2024,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 2,
+    "conquistas_percentual": 61,
+    "nota_pessoal": 5,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://shared.fastly.steamstatic.com/community_assets/images/apps/2873080/7bd39257891274c4cc309268f665f5bfdb107fe6.jpg",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/a5ca0c27e20d70d88725ad3c68c06908.jpg",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Blasphemous 2",
+    "ano_lancamento": 2023,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 26,
+    "conquistas_percentual": 49,
+    "nota_pessoal": 8,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam Family",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/ea3840c049893ef0051edf8bb6fa23f8.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/ae59a21710f1a254098b27a3ae7ef91b.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Buckshot Roulette",
+    "ano_lancamento": 2023,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 8,
+    "conquistas_percentual": 68,
+    "nota_pessoal": 8,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/a9dc0b4a2809b2e4e26480b54f8e7c2a.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/15dedec079bd674cc309564d63c8db2c.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Cocoon",
+    "ano_lancamento": 2023,
+    "data_zerado": 2024,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 6,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "XBOX",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/0abab0b11a59f8e4b1df6e3f3f83bd7b.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/518bf0a085381cf158a5d288f6b81c46.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Hi-Fi RUSH",
+    "ano_lancamento": 2023,
+    "data_zerado": 2024,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 9,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "XBOX",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/d26ae53c9441b24e4286842b32b98637.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/6138d1c8d1ade581e5901f97988feaae.jpg",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Venba",
+    "ano_lancamento": 2023,
+    "data_zerado": 2024,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 3,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "GOG",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/db2b39d8cc6a65fe0b026b06030921e8.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/82aa987960f4119ee21bf6e1b337170d.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "A Little to the Left",
+    "ano_lancamento": 2022,
+    "data_zerado": 2024,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 3,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "XBOX",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/22b74b62efb058d763147a47d7922938.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/d1f633067861a6718b78473e68ab681c.jpg",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Brotato",
+    "ano_lancamento": 2022,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 28,
+    "conquistas_percentual": 30,
+    "nota_pessoal": 6,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam Family",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/2e904afa80a8ca949f187f64ff2d15b2.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/f9d2a1aec6f492afb116aceaeafe1087.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Before Your Eyes",
+    "ano_lancamento": 2021,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 6,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/92e8037e71921dad0f1e46671506cc4e.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/b3025ca2b85976caf907a5e4fe34cbce.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Death's Door",
+    "ano_lancamento": 2021,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 2,
+    "conquistas_percentual": 45,
+    "nota_pessoal": 7,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/875521e646c578b4f238c91389780c15.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/9bee707dd28e2c0c497541d1bdefb858.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Doki Doki Literature Club Plus!",
+    "ano_lancamento": 2021,
+    "data_zerado": 2024,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 5,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Epic Games",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/3e6ad89fe36086fb79126e36c659f5df.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/042f6e4fdc5db0324a811eb24ab0a4ad.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "It Takes Two",
+    "ano_lancamento": 2021,
+    "data_zerado": 2022,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 8,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "XBOX",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/fa14e26aa100e41821a2050bf4edfb67.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/84d8df6932e202152767f7579f32c613.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Mario Party Superstars",
+    "ano_lancamento": 2021,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 8,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Switch",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/1759e864edd6cb2200926b3a2f729dac.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/2df6a99eec56aa765a8476eb586b1c78.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Vampire Survivors",
+    "ano_lancamento": 2021,
+    "data_zerado": 2024,
+    "tempo_jogo_horas": 20,
+    "conquistas_percentual": 44,
+    "nota_pessoal": 8,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/2cb1e384e0906033e91c4795c75ae6fb.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/3bf40127ca1dca6b367418c560ed9ee9.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Streets of Rage 4",
+    "ano_lancamento": 2020,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 6,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Pirata",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/e5b4362e2a9ee28d4b95656d7ddb2606.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/d9432b6bc886a9e9ff6f46a6b8f8cbd5.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Superliminal",
+    "ano_lancamento": 2020,
+    "data_zerado": 2024,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 3,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "XBOX",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/4ccb2d64b8159636a44b29fe2e62a841.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/7491337a7c702ea986a7832fd99bad2c.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Blasphemous",
+    "ano_lancamento": 2019,
+    "data_zerado": 2024,
+    "tempo_jogo_horas": 20,
+    "conquistas_percentual": 51,
+    "nota_pessoal": 7,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam Family",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/c53efb25385f33b9aaddf6bbc3b8bc33.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/25c2c7b955a7e2580daa62534486ec09.jpg",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Bloodstained: Ritual of the Night",
+    "ano_lancamento": 2019,
+    "data_zerado": 2024,
+    "tempo_jogo_horas": 38,
+    "conquistas_percentual": 53,
+    "nota_pessoal": 8,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/b943ab38760df5ce60cee6039224a933.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/9012dbd23c4d2e33be5eccb0e5f72517.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Castlevania",
+    "ano_lancamento": 2019,
+    "data_zerado": 2023,
+    "tempo_jogo_horas": 6.7,
+    "conquistas_percentual": 7,
+    "nota_pessoal": 4,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/843b20cc14778b7af5b885e999af5f9e.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/af3f3aefaf93ea8364b3e2cb27b9594c.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Dicey Dungeons",
+    "ano_lancamento": 2019,
+    "data_zerado": 2023,
+    "tempo_jogo_horas": 12,
+    "conquistas_percentual": 24,
+    "nota_pessoal": 7,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/064bfce82c04a5c71b88dddde319ea71.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/539c6106494276dc6cda57147191edb1.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Katana ZERO",
+    "ano_lancamento": 2019,
+    "data_zerado": 2024,
+    "tempo_jogo_horas": 7,
+    "conquistas_percentual": 18,
+    "nota_pessoal": 8,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/421740375847b6249d9383615831c23b.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/ebce2c7b380efc44b429f4353aba4a5d.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Muse Dash",
+    "ano_lancamento": 2019,
+    "data_zerado": 2024,
+    "tempo_jogo_horas": 29,
+    "conquistas_percentual": 100,
+    "nota_pessoal": 6,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/26751be1181460baf78db8d5eb7aad39.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/8f1fc218c06226be8273a0748c68277c.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Resident Evil 2",
+    "ano_lancamento": 2019,
+    "data_zerado": 2024,
+    "tempo_jogo_horas": 30,
+    "conquistas_percentual": 54,
+    "nota_pessoal": 10,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/eaa52f3366768bca401dca9ea5b181dd.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/0dcc410f031086c33eb571e62007951b.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "River City Girls",
+    "ano_lancamento": 2019,
+    "data_zerado": 2023,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 6,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Pirata",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/7580584dbb499d1e2a45411a0cc7fa23.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/c126e32469eebe76edca3299f6c9e775.jpg",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Sayonara Wild Hearts",
+    "ano_lancamento": 2019,
+    "data_zerado": 2023,
+    "tempo_jogo_horas": 3.5,
+    "conquistas_percentual": 16,
+    "nota_pessoal": 6,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/6b8aa777ed70e7f15a45947a0f0c5986.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/919abe568c11df749690534a9e225785.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "The Legend of Zelda: Link's Awakening",
+    "ano_lancamento": 2019,
+    "data_zerado": 2024,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 7,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Switch",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/3c5cacc351984a48a50d065f662789df.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/0ec360c243d4a23244accb3d04851604.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Untitled Goose Game",
+    "ano_lancamento": 2019,
+    "data_zerado": 2022,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 4,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Pirata",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/96d1382d50a8e569d7ad3d9ee104a1f7.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/df22702ab8f59eac4fa981a5ae651a6b.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "A Way Out",
+    "ano_lancamento": 2018,
+    "data_zerado": 2024,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 8,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Pirata",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/27e34e1093ba7e24075b9f5b25dcf5a7.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/f933d5c2b1cf9fd42ec839ef9648bf46.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Horizon Chase Turbo",
+    "ano_lancamento": 2018,
+    "data_zerado": 2023,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 6,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Epic Games",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/dcf771571b1ed2a8843b0564652cefbb.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/5be6828ba1f517ca9e6e249c5db867c5.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Street Fighter",
+    "ano_lancamento": 2018,
+    "data_zerado": 2024,
+    "tempo_jogo_horas": 9.7,
+    "conquistas_percentual": 11,
+    "nota_pessoal": 1,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/8321e047fb413f251abf34adf1e49a1b.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/b7d1f1c8d305db3a7f5bced270c7a47a.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Street Fighter Alpha",
+    "ano_lancamento": 2018,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 2,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/efdbf45bfc950fc5a2ac0e1511a354b8.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/384716e2cd8e0708f4fd4215b73df943.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Dark Souls III: The Ringed City",
+    "ano_lancamento": 2017,
+    "data_zerado": 2024,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 9,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "DLC",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/cfa0860e83a4c3a763a7e62d825349f7.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/bb375cd0b85fafbaea7a865130fc8e97.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Death Coming",
+    "ano_lancamento": 2017,
+    "data_zerado": 2020,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 4,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Epic Games",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/741b185d33339aed0c2bafba7806c1e5.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/01852bf4d7b60b7c945f4fa51f12abba.jpg",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Gorogoa",
+    "ano_lancamento": 2017,
+    "data_zerado": 2020,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 4,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "XBOX",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/414c073ee1379bd7bc7b332159cab1e6.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/77f18326044318a664ecf22bf60fb275.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Little Nightmares",
+    "ano_lancamento": 2017,
+    "data_zerado": 2021,
+    "tempo_jogo_horas": 10.6,
+    "conquistas_percentual": 54,
+    "nota_pessoal": 6,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/8f7858dfa2f4a1887b6e0d3be0aa4f27.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/44b4034e6b33988e2b4539a0783215b9.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Puyo Puyo Tetris",
+    "ano_lancamento": 2017,
+    "data_zerado": 2024,
+    "tempo_jogo_horas": 78.6,
+    "conquistas_percentual": 64,
+    "nota_pessoal": 7,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/13f161576e1f4325f8b5cf520ebb4b1e.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/8e95ecf89eb411bfc41bc406be264e42.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Resident Evil 7",
+    "ano_lancamento": 2017,
+    "data_zerado": 2023,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 8,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/d0d7861372c4b545496c2a2b5c4a62e3.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/1bd92fc1a8d57db76db351e77904387e.jpg",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "SteamWorld Dig 2",
+    "ano_lancamento": 2017,
+    "data_zerado": 2022,
+    "tempo_jogo_horas": 4.8,
+    "conquistas_percentual": 29,
+    "nota_pessoal": 6,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/54072f485cdb7897ebbcaf7525139561.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/8d6207d5c61585069754daf3b60ba52a.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Bioshock Remastered",
+    "ano_lancamento": 2016,
+    "data_zerado": 2023,
+    "tempo_jogo_horas": 15.7,
+    "conquistas_percentual": 44,
+    "nota_pessoal": 5,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/9fee6abfcc2bc7fed8f66f3fbb5c4d07.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/37aea6965461cb0510473d109411a0c3.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Dark Souls III",
+    "ano_lancamento": 2016,
+    "data_zerado": 2024,
+    "tempo_jogo_horas": 130,
+    "conquistas_percentual": 74,
+    "nota_pessoal": 10,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/cfa0860e83a4c3a763a7e62d825349f7.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/9085f5ef67f2f7f0f38e869ffb5016a1.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Dark Souls III: Ashes of Ariandel",
+    "ano_lancamento": 2016,
+    "data_zerado": 2024,
+    "tempo_jogo_horas": 0,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 8,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "DLC",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/cfa0860e83a4c3a763a7e62d825349f7.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/bb375cd0b85fafbaea7a865130fc8e97.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Far Cry Primal",
+    "ano_lancamento": 2016,
+    "data_zerado": 2024,
+    "tempo_jogo_horas": 30,
+    "conquistas_percentual": 54,
+    "nota_pessoal": 7,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/84ec6b79918286654ffd634470fee003.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/886f208d861792df9ccfb9793263394d.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Hue",
+    "ano_lancamento": 2016,
+    "data_zerado": 2021,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 4,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/1c63926ebcabda26b5cdb31b5cc91efb.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/bb1f2ec3e130ce6e5b33c0ae9aa3ed4a.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Inside",
+    "ano_lancamento": 2016,
+    "data_zerado": 2021,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 4,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Epic Games",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/ebf283eef673870e3325594ffcc9049e.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/03b4607d9c13ce5daab8e4bd805dbdbf.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Lara Croft GO",
+    "ano_lancamento": 2016,
+    "data_zerado": 2022,
+    "tempo_jogo_horas": 6,
+    "conquistas_percentual": 76,
+    "nota_pessoal": 6,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/74dbd1111727a31a2b825d615d80b2e7.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/74b83cc39b3b4a8b3b257eabef47dc4c.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Metal Slug 2",
+    "ano_lancamento": 2016,
+    "data_zerado": 2024,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 4,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam Family",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/c9535ee549d198a4b146a5a81e0a6450.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/36de309602983818b4c2b9b606ef4ff4.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "PICO PARK:Classic Edition",
+    "ano_lancamento": 2016,
+    "data_zerado": 2024,
+    "tempo_jogo_horas": 4.4,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 5,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn.example.com/icon/default.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/0ac6d0b2330dddcb2d0393a2d0239321.jpg",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Plague Inc. Evolved",
+    "ano_lancamento": 2016,
+    "data_zerado": 2023,
+    "tempo_jogo_horas": 7,
+    "conquistas_percentual": 12,
+    "nota_pessoal": 4,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/e3a72c791a69f87b05ea7742e04430ed.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/da8a8e9cbcc29f7a06600fc7b6ce72ba.jpg",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Clicker Heroes",
+    "ano_lancamento": 2015,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 74.3,
+    "conquistas_percentual": 27,
+    "nota_pessoal": 1,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Sem Fim",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/e050f9d62c482203c09d2bd73a21ce89.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/9ccd859dd921d885371709abc3dd2845.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Five Nights at Freddy's 3",
+    "ano_lancamento": 2015,
+    "data_zerado": 2000,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 1,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Pirata",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/54a367d629152b720749e187b3eaa11b.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/ee60c22e4bfe1543ac99218d9376d56f.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Five Nights at Freddy's 4",
+    "ano_lancamento": 2015,
+    "data_zerado": 2000,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 2,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Pirata",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/39d352b0395ba768e18f042c6e2a8621.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/12cc97842f39de60ed91cd3740d551b2.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Jotun: Valhalla Edition",
+    "ano_lancamento": 2015,
+    "data_zerado": 2022,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 3,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Epic Games",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/b87eb619c7b25a8a97ee86cea6eb515c.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/bfe1049f00d859d9ac317c5e72320868.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Keep Talking and Nobody Explodes",
+    "ano_lancamento": 2015,
+    "data_zerado": 2024,
+    "tempo_jogo_horas": 2.5,
+    "conquistas_percentual": 30,
+    "nota_pessoal": 6,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/cef347a99ab5be3642ec79a8e2c0bc87.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/5b26487c96a94e4c4a7565b28cd27b16.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Mega Man",
+    "ano_lancamento": 2015,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 12,
+    "conquistas_percentual": 12,
+    "nota_pessoal": 4,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/41ab1b1d6bf108f388dfb5cd282fb76c.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/20f16dbde9f389fb902074b9a48881a3.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Mega Man 2 (NES)",
+    "ano_lancamento": 2015,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 0,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 4,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Ports",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/f7e89e2ee629597e722d180ef26f2415.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/772742993e6897d9e985c5c5280d444a.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Mega Man 3",
+    "ano_lancamento": 2015,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 0,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 4,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/dcda54e29207294d8e7e1b537338b1c0.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/f2a37016e4540df77ef9a16d0df282c8.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Metal Gear Solid V: The Phantom Pain",
+    "ano_lancamento": 2015,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 81,
+    "conquistas_percentual": 64,
+    "nota_pessoal": 9,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/1f72e258ff730035f2a1fb6637f562c2.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/727d89c97ccaa39b9f2b848bdce6aca5.jpg",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Mortal Kombat XL",
+    "ano_lancamento": 2015,
+    "data_zerado": 2022,
+    "tempo_jogo_horas": 7.8,
+    "conquistas_percentual": 13,
+    "nota_pessoal": 4,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/d58e2f077670f4de9cd7963c857f2534.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/8b4ac86682a6a1c8e255e72c769c96df.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Ori and the Blind Forest",
+    "ano_lancamento": 2015,
+    "data_zerado": 2020,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 7,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam Family",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/00752d4f1126a47a258e14ca98685786.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/d4aa28edb4a7e60bf8a800ef24c26eb3.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Rise of the Tomb Raider",
+    "ano_lancamento": 2015,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 7,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Epic Games",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/cfa3a0bc94975cb9c346a585ccb3ad9e.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/1980515e2a40690448065e854fe5f6d6.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Titan Souls",
+    "ano_lancamento": 2015,
+    "data_zerado": 2021,
+    "tempo_jogo_horas": 9.1,
+    "conquistas_percentual": 40,
+    "nota_pessoal": 6,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/c08801e8fe6cc49c3f4c80588829282a.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/f07d688ca57751977ca383d0e3f8bf8f.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Undertale",
+    "ano_lancamento": 2015,
+    "data_zerado": 2023,
+    "tempo_jogo_horas": 11.2,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 9,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/3b9be7e15b46c42911f39a4a9e861022.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/aba1e5182d973f43f2b3fd755f8e2314.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Dark Souls II",
+    "ano_lancamento": 2014,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 37.2,
+    "conquistas_percentual": 47,
+    "nota_pessoal": 6,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam Family",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/fe131d7f5a6b38b23cc967316c13dae2.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/d4a65d5fdc8766cf2c55e8267c5d7c72.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Five Nights at Freddy's",
+    "ano_lancamento": 2014,
+    "data_zerado": 2000,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 2,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Pirata",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/25e828afe5f637410a84442d27029c38.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/c7e30c4f80e9452d40245385c6572936.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Five Nights at Freddy's 2",
+    "ano_lancamento": 2014,
+    "data_zerado": 2000,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 1,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Pirata",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/fe7ee8fc1959cc7214fa21c4840dff0a.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/0c03ea14e7ddd7364ecde4a5c3826af2.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Mario Kart 8",
+    "ano_lancamento": 2014,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 8,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Wii U",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/ac1ad983e08ad3304a97e147f522747e.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/08685bf36516348b810ede4e3c1dfe52.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Metal Slug 3",
+    "ano_lancamento": 2014,
+    "data_zerado": 2024,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 5,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam Family",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/b53cbe6da81db747a73e52a5a48d2703.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/59960b091a430cb34874cad540c7f9af.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Shantae and the Pirate's Curse",
+    "ano_lancamento": 2014,
+    "data_zerado": 2023,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 6,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "GOG",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/4d6da0c32dd563fea116da78ca1ffd39.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/30dea1e296ede218e40cc57a0b3e6b96.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "The Binding of Isaac: Rebirth",
+    "ano_lancamento": 2014,
+    "data_zerado": 2023,
+    "tempo_jogo_horas": 18.2,
+    "conquistas_percentual": 4,
+    "nota_pessoal": 7,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/3d1ed124d48ac4f12106b32decf840b0.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/beabdb231f6cafc9503a651400b2c1b4.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Ultra Street Fighter IV",
+    "ano_lancamento": 2014,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 79.4,
+    "conquistas_percentual": 28,
+    "nota_pessoal": 6,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/0937fb5864ed06ffb59ae5f9b5ed67a9.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/9a8da182a6185560f43cda94c19017eb.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Batman Arkham Origins",
+    "ano_lancamento": 2013,
+    "data_zerado": 2021,
+    "tempo_jogo_horas": 21,
+    "conquistas_percentual": 13,
+    "nota_pessoal": 6,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/d6bf6e9d845d0d7241905a33317aebab.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/2a17dafef6f0b54770c97b59b51e28e2.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Bioshock Infinte",
+    "ano_lancamento": 2013,
+    "data_zerado": 2024,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 8,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/091d584fced301b442654dd8c23b3fc9.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/b937a56ac2082006f7b0a40ab60fe958.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Borderlands 2: Tiny Tina's Assault on Dragon Keep",
+    "ano_lancamento": 2013,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 8,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "DLC",
+    "plataforma": "Steam Family",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/52c409f1571f500e28f490a302a12540.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/9dd3759c9ab81b8e84def142a991a412.jpg",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Call  of Juarez: Gunslinger",
+    "ano_lancamento": 2013,
+    "data_zerado": 2022,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 6,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/cf37368a5897a76478650a7eea56cfc1.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/d6e1c4d50bb8d4fde2bbe97be83d92a7.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Evoland",
+    "ano_lancamento": 2013,
+    "data_zerado": 2023,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 6,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam Family",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/37c192d1af619c2877c9891f396e344c.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/128484b6a22c296cf2c15620c89a2848.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Game Dev Tycoon",
+    "ano_lancamento": 2013,
+    "data_zerado": 2023,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 5,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/512844c25cd1c9af079ba08f868eb637.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/51a62854d0684a4e2e3d7aabfc0c21bf.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Garfield Kart",
+    "ano_lancamento": 2013,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 4,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam Family",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/54d303c9ddc2a43df23563254885d936.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/a167a7fb11a219cab4406f83192b9180.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Injustice: Gods Among Us Ultimate Edition",
+    "ano_lancamento": 2013,
+    "data_zerado": 2021,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 5,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/98994c4349015b8585779bf0ea5b4618.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/aa0952d4ab66756202e6a7dcd7616bda.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Outlast",
+    "ano_lancamento": 2013,
+    "data_zerado": 2022,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 6,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/8621cdddd12002436862912970737eda.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/2ab65a72cef0f72196d92ae1eab2580f.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Papers, Please",
+    "ano_lancamento": 2013,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 9.6,
+    "conquistas_percentual": 84,
+    "nota_pessoal": 5,
+    "generos": [
+      "Indie",
+      "Político",
+      "Simulação"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam Family",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/3b92d18aa7a6176dd37d372bc2f1eb71.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/657521cffefffb720284d2176c9164c2.png",
+    "review": "Eu não gosto muito desse jogo. Na verdade, joguei apenas por causa do Clube de Games. Minha nota até subiu um pouco, mas eu realmente não curto jogos em que o personagem só trabalha, ainda mais quando é um trabalho repetitivo. No geral, nenhuma história salva um jogo com gameplay chata. Estou bem perto de platinar, mas não pretendo, o fator replay desse jogo me mataria."
+  },
+  {
+    "titulo": "SteamWorld Dig",
+    "ano_lancamento": 2013,
+    "data_zerado": 2024,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 5,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/821fa74b50ba3f7cba1e6c53e8fa6845.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/d49e9f66589606e19f8898a22db1396f.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "The Legend of Zelda: Wind Waker HD",
+    "ano_lancamento": 2013,
+    "data_zerado": 2024,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 9,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Wii U",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/f023559c6d59c04e3804209f573dbff9.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/8d5c0500d7ec1c04842c4b33673d0f43.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Borderlands 2",
+    "ano_lancamento": 2012,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 8,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/52c409f1571f500e28f490a302a12540.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/9dd3759c9ab81b8e84def142a991a412.jpg",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Devil May Cry",
+    "ano_lancamento": 2012,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 6,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/d86b00eaec7e7f2a77c3bb48961726f8.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/a51ab59de814cb28cb3324a0d3e23d18.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Dishonored",
+    "ano_lancamento": 2012,
+    "data_zerado": 2023,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 10,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/bd633866f8a4b9bc454788b71effead2.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/48b9ef5bcb5ede1575779d29b9eeffe7.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Journey",
+    "ano_lancamento": 2012,
+    "data_zerado": 2024,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 8,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/7f29f58980570546b1ae814455bdcc31.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/4d815e0dd3244bf08f3acc60d9498027.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Katawa Shoujo",
+    "ano_lancamento": 2012,
+    "data_zerado": 2000,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 5,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/98f0d5f93731b7f3186531c37cca0945.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/a5184b7f699205c7098409380df094f2.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Minecraft",
+    "ano_lancamento": 2011,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 10,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Pirata",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/add7a048049671970976f3e18f21ade3.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/a73027901f88055aaa0fd1a9e25d36c7.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Portal 2",
+    "ano_lancamento": 2011,
+    "data_zerado": 2021,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 9,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/8d37be25170778cefa6d23801922dc97.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/9ebc0e97da8e0e5083fea7203f194d2b.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Saints Row: The Third",
+    "ano_lancamento": 2011,
+    "data_zerado": 2021,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 7,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/263f71c11bcabae5f862a1d8c05a8738.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/2c1e71c74beab252aee57342d169293b.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Terraria",
+    "ano_lancamento": 2011,
+    "data_zerado": 2024,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 7,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/912b92ae7dbedd0344a6580a7b90efc6.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/9ef7f9b81c2532880cfe5cf53f0c906d.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "The Legend of Zelda: Ocarina of Time 3D",
+    "ano_lancamento": 2011,
+    "data_zerado": 2023,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 8,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Ports",
+    "plataforma": "3DS",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/66368270ffd51418ec58bd793f2d9b1b.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/ab6fe89d793b5a3c4153692779cb0680.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Amnesia: The Dark Descent",
+    "ano_lancamento": 2010,
+    "data_zerado": 2023,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 2,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Epic Games",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/64e05037a21f2e2a33adc1b393f67d10.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/bb4d41b834d1a09bb8e0b39ad59246a6.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Bayonetta",
+    "ano_lancamento": 2010,
+    "data_zerado": 2024,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 9,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/7cdace91c487558e27ce54df7cdb299c.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/8cbebba5ae8eb3cb276021b630e21fbb.jpg",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "LIMBO",
+    "ano_lancamento": 2010,
+    "data_zerado": 2024,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 5,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/70efba66d3d8d53194fb1a8446ae07fa.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/97e147b55c7b8f6e9d79100fd40d68a0.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Super Meat Boy",
+    "ano_lancamento": 2010,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 7,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/d07e70efcfab08731a97e7b91be644de.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/4e17fdfe672e908e42d1e3746afd279b.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Assassins Creed II",
+    "ano_lancamento": 2009,
+    "data_zerado": 2022,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 8,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/552a03c21c9b30d05056639c4316c685.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/30a53d130bbe822d676ababadbd3fffd.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Left 4 Dead 2",
+    "ano_lancamento": 2009,
+    "data_zerado": 2024,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 6,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/8efb100a295c0c690931222ff4467bb8.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/209cc9ba9f99c6cb5b90d7587ae5c644.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Plants vs. Zombies: Game of the Year",
+    "ano_lancamento": 2009,
+    "data_zerado": 2023,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 8,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/c724bedfba9b4aeb92b446fbb6baf31c.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/ee7aa4daa3d20f02cbe3d9d68bbd869a.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Ben 10: Alien Force - The Game",
+    "ano_lancamento": 2008,
+    "data_zerado": 2000,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 1,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "PS2",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/116ce3668c6d5c744252b9a1cb67b8d4.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/4d90b6c22554db6b9aaee213d3cedcde.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Dead Space",
+    "ano_lancamento": 2008,
+    "data_zerado": 2023,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 8,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/6403675579f6114559c90de0014cd3d6.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/26203c6ab63ff66fef12bbc3b8dad1c0.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Left 4 Dead",
+    "ano_lancamento": 2008,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 7,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/d9fc5b73a8d78fad3d6dffe419384e70.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/374d0ee164c2197c4976ebe31b9f6269.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Ben 10: Protector of Earth",
+    "ano_lancamento": 2007,
+    "data_zerado": 2000,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 2,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "PS2",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/ae95296e27d7f695f891cd26b4f37078.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/4bec99ec5bd39630575692948d9e8169.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Dragon Ball Budokai Tenkaichi 3",
+    "ano_lancamento": 2007,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 6,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "PS2",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/21c3134ee5edcb618c4f9aae358d73a7.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/2fcd824d9156e24ad1f7344c8723ab5f.png",
+    "review": "Review pendente."
+  }, {
+    "titulo": "Dragon Ball Z: KAKAROT",
+    "ano_lancamento": 2020,
+    "data_zerado": 0,
+    "tempo_jogo_horas": 0,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 0,
+    "generos": [
+      "Ação",
+      "RPG",
+      "Anime"
+    ],
+    "status": "Backlog",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/9951711c053f38614b21135be50ae21c.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/b384cf1e04c25c0cd4c0194e16117be2.png",
+    "review": "Tenho que jogar primeiro"
+  },{
+    "titulo": "DRAGON BALL FighterZ",
+    "ano_lancamento": 2018,
+    "data_zerado": 0,
+    "tempo_jogo_horas": 0,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 0,
+    "generos": [
+      "Luta 2D",
+      "Ação",
+      "Anime"
+    ],
+    "status": "Backlog",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/7776e88b0c189539098176589250bcba.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/a213ed23c193d414334a64ddf47c9f27.jpg",
+    "review": "Tenho que jogar primeiro"
+  },{
+    "titulo": "DRAGON BALL XENOVERSE",
+    "ano_lancamento": 2015,
+    "data_zerado": 0,
+    "tempo_jogo_horas": 0,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 0,
+    "generos": [
+      "Luta 3D",
+      "Ação",
+      "Anime"
+    ],
+    "status": "Backlog",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/95cb29c65c9f39aee2714e7734c344cc.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/59867335179a10a3007e594ec8de5dea.jpg",
+    "review": "Tenho que jogar primeiro"
+  },{
+    "titulo": "DRAGON BALL XENOVERSE 2",
+    "ano_lancamento": 2016,
+    "data_zerado": 0,
+    "tempo_jogo_horas": 0,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 0,
+    "generos": [
+      "Luta 3D",
+      "Ação",
+      "Anime"
+    ],
+    "status": "Playlist",
+    "plataforma": "Nenhuma",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/292f0300bbddb5ad9efc10f31c452e57.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/6194cc9700fea83e075b89f677d3559d.png",
+    "review": "Tenho que jogar primeiro"
+  },{
+    "titulo": "DRAGON BALL: Sparking! ZERO",
+    "ano_lancamento": 2024,
+    "data_zerado": 0,
+    "tempo_jogo_horas": 0,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 0,
+    "generos": [
+      "Luta 3D",
+      "Ação",
+      "Anime"
+    ],
+    "status": "Playlist",
+    "plataforma": "Nenhuma",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/20086683a16f0f9ff5ee662afa9fbfbf.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/e1113f40e20464469d860bef72793600.png",
+    "review": "Tenho que jogar primeiro"
+  },{
+    "titulo": "Dragon Ball Z: Budokai 3",
+    "ano_lancamento": 2004,
+    "data_zerado": 0,
+    "tempo_jogo_horas": 0,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 0,
+    "generos": [
+      "Luta 3D",
+      "Ação",
+      "Anime"
+    ],
+    "status": "Playlist",
+    "plataforma": "Nenhuma",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/08808cfb5939be387af3c159b83c6b98.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/16ed9d22b7fdde24ca7eb7baf3637d8f.png",
+    "review": "Tenho que jogar primeiro"
+  },{
+    "titulo": "Dragon Ball Z: Shin Budokai",
+    "ano_lancamento": 2006,
+    "data_zerado": 0,
+    "tempo_jogo_horas": 0,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 0,
+    "generos": [
+      "Luta 3D",
+      "Ação",
+      "Anime"
+    ],
+    "status": "Playlist",
+    "plataforma": "Nenhuma",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/d7a6170fcd40c9d43be7eb83295b0324.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/61170dd37765bf9bee70ec952a5170b0.png",
+    "review": "Tenho que jogar primeiro"
+  },{
+    "titulo": "Dragon Ball Z: Shin Budokai - Another Road",
+    "ano_lancamento": 2007,
+    "data_zerado": 0,
+    "tempo_jogo_horas": 0,
+    "conquistas_percentual": 0,
+    "nota_pessoal": 0,
+    "generos": [
+      "Luta 3D",
+      "Ação",
+      "Anime"
+    ],
+    "status": "Playlist",
+    "plataforma": "Nenhuma",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/4c58556a4800c5f18316dcfbe00480bd.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/beac797b340f530d5d971e8650122b51.png",
+    "review": "Tenho que jogar primeiro"
+  },
+  {
+    "titulo": "God of War II",
+    "ano_lancamento": 2007,
+    "data_zerado": 2022,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 7,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "PS2",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/6c524f9d5d7027454a783c841250ba71.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/7f5c8cbd9c1a9f0fbbb793d440dfd8e3.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Peggle Deluxe",
+    "ano_lancamento": 2007,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 5,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/604e57adfadefb1eeea2b52afe2bcc63.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/4135a1d86208f7f6f0cde24c048b7a84.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Portal",
+    "ano_lancamento": 2007,
+    "data_zerado": 2022,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 7,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/045117b0e0a11a242b9765e79cbf113f.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/60d58eafbef6da2e2bd56b40cd8835ed.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Ratattouille (PC)",
+    "ano_lancamento": 2007,
+    "data_zerado": 2024,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 6,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Pirata",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/553ed65b08798c8e41e5bb4b8486d49a.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/357640a3884804fc1787ea511137e51b.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Ratattouille (PS2)",
+    "ano_lancamento": 2007,
+    "data_zerado": 2024,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 6,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Ports",
+    "plataforma": "PS2",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/553ed65b08798c8e41e5bb4b8486d49a.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/357640a3884804fc1787ea511137e51b.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Dragon Ball Budokai Tenkaichi 2",
+    "ano_lancamento": 2006,
+    "data_zerado": 2000,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 4,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "PS2",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/46ba59a6994802347d659680875fb173.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/26282a6bdea2d247f15839dba04008cd.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "F.E.A.R.",
+    "ano_lancamento": 2005,
+    "data_zerado": 2022,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 6,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/6a68d56bc29b2ba7743554740e04153c.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/6eaf935a9ba18155b5f0e5f74505f4f1.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "God of War",
+    "ano_lancamento": 2005,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 7,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "PS2",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/5cc33dfe7e069a757ca0fcbe6b95c89e.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/72d0eaa80cc3412fda4a133ca1f884e8.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Resident Evil 4 (Gamecube)",
+    "ano_lancamento": 2005,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 9,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Ports",
+    "plataforma": "GameCube",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/9778d5d219c5080b9a6a17bef029331c.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/46cc597bae1fee3cd19314f32c6cb4f0.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Resident Evil 4 (PS2)",
+    "ano_lancamento": 2005,
+    "data_zerado": 2024,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 8,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Ports",
+    "plataforma": "PS2",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/9778d5d219c5080b9a6a17bef029331c.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/46cc597bae1fee3cd19314f32c6cb4f0.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Shadow of the Colossus",
+    "ano_lancamento": 2005,
+    "data_zerado": 2024,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 10,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "PS2",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/c13ce2ce7cd12830d03b9d996bc05388.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/acaca856b38c00847ecc1ca2c02ae4b4.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Tekken 5",
+    "ano_lancamento": 2005,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 5,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "PS2",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/f533559cf045bbb1909eb3809ea0f0f3.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/6064e6d3493f8079cfc90a3ba5536fdc.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Wario Ware Touched",
+    "ano_lancamento": 2005,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 5,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "DS",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/396bfe5c1ae70eab245ac40824b412ec.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/330093c4c80196eaada85031c9d7f6c6.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Dragon Ball Advance Adventure",
+    "ano_lancamento": 2004,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 6,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "GBA",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/8b96464d7efe28c47cd6d9b23fb04e17.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/a7843ff15ebf9f9b7ceda39eb8b1f117.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Pokemon Emerald",
+    "ano_lancamento": 2004,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 7,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "GBA",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/5d12d5a76a9683536eb23a6a1c9767cc.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/052938e7b425df3acdd9dc4be44404ef.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Yu-Gi-Oh! Capsule Monster Coliseum",
+    "ano_lancamento": 2004,
+    "data_zerado": 2000,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 6,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "PS2",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/aa8a9e971be010daf674590aea610c28.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/d6021f96ec4c409742c664803a551127.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Zuma Deluxe",
+    "ano_lancamento": 2003,
+    "data_zerado": 2024,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 5,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/adf229d928d1bf5e7758671f69152e11.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/92757b7ebf6d8edfef5e211249a38ab5.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Resident Evil Remake",
+    "ano_lancamento": 2002,
+    "data_zerado": 2022,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 7,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn.example.com/icon/default.ico",
+    "capa_url": "https://cdn.example.com/capa/default.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Super Mario Sunshine",
+    "ano_lancamento": 2002,
+    "data_zerado": 2023,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 9,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "GameCube",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/e41fa3d414e8eaca9467ecace739b400.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/f5e97c0193978d636807084bf658fc1c.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "The Legend of Zelda: A Link to the Past",
+    "ano_lancamento": 2002,
+    "data_zerado": 2024,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 7,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "GBA",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/61f7b92a1aa7a88d4cee7dff7d98e7f0.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/7edaadde50012f0860952123564eb1ba.jpg",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "The Legend of Zelda: Four Swords",
+    "ano_lancamento": 2002,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 6,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "GBA",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/cc0991344c3d760ae42259064406bae1.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/0383caf72eb0502bb39a2e81fa4fbf01.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "ICO",
+    "ano_lancamento": 2001,
+    "data_zerado": 2024,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 6,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "PS2",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/0126af625c72ec0fd0a0b834308d3082.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/54c8077a3713597237f91535a6082b1f.jpg",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Metal Slug X",
+    "ano_lancamento": 2001,
+    "data_zerado": 2024,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 5,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Ports",
+    "plataforma": "Amazon",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/88dcc5a4bd60facf01829dc481c65c8e.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/560f8f4b1f6a8f9b982c7ac33ffe30e1.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "The Legend of Zelda: Majora's Mask",
+    "ano_lancamento": 2000,
+    "data_zerado": 2023,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 9,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "64",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/4e0928de075538c593fbdabb0c5ef2c3.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/958c6e525626a72dc5722a63f638a80b.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Crash Bandicood: Warped",
+    "ano_lancamento": 1998,
+    "data_zerado": 2021,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 7,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "PS1",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/902c3c4fdc285a470ddc4b7f6918cddd.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/04514b9893dd1719269aea025015ebe9.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Metal Gear Solid",
+    "ano_lancamento": 1998,
+    "data_zerado": 2022,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 7,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "PS1",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/839ab46820b524afda05122893c2fe8e.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/3ac4511ba0302570efea191ea1a2d0b4.jpg",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "The Legend of Zelda: Ocarina of Time",
+    "ano_lancamento": 1998,
+    "data_zerado": 2024,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 9,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "64",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/a896144046a1b5bd6e3e034d00b4f73a.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/ed89e6477ff6a465891a5f17f77948ae.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Castlevania: Symphony of the Night",
+    "ano_lancamento": 1997,
+    "data_zerado": 2022,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 8,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "PS1",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/eadccc9ad3d1c5ce3861fabfbf759493.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/13e50e203d8be253cc8cd7fbe1509c63.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Crash Bandicoot",
+    "ano_lancamento": 1996,
+    "data_zerado": 2021,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 7,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "PS1",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/9103820024efb30b451d006dc4ab3370.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/8282b546dda9ec05515966ba0fe3e5d1.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Mario Kart 64",
+    "ano_lancamento": 1996,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 6,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "64",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/f57e9defd1303332611ab2ca1994500d.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/bc11db020cb9418782afa3d1e0a1209b.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Metal Slug",
+    "ano_lancamento": 1996,
+    "data_zerado": 2024,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 5,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam Family",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/1fa3b85e26b3058ead1ef2eec9be060e.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/2eb8302605d2cacb6457d1f4af221875.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "PaRappa the Rapper",
+    "ano_lancamento": 1996,
+    "data_zerado": 2024,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 4,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "PS1",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/28f36aa85fbadc0663c2df15a5af35db.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/49d71abeb9511c049336143fee67cff7.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Super Mario 64",
+    "ano_lancamento": 1996,
+    "data_zerado": 2024,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 8,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Pirata",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/d09bf41544a3365a46c9077ebb5e35c3.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/f293653ffa5c0e53453463a82401dbec.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Chrono Trigger",
+    "ano_lancamento": 1995,
+    "data_zerado": 2021,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 9,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/241dfe5e876da942ca1dc3cd5986e093.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/abc617f05e41620356626cf7761d5143.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Virtua Fighter 2",
+    "ano_lancamento": 1994,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 3,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/694a6ae6a53c08bdd59d2d7898e51099.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/3733461e97231e8cbec789bf93c51724.jpg",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Kirby's Adventure",
+    "ano_lancamento": 1993,
+    "data_zerado": 2023,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 6,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Pirata",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/5f8f8b4ab96b842515bfe342cf196929.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/549fbcedc81aeae88e6f566545d7baf3.jpg",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Sonic the Hedgehog 2",
+    "ano_lancamento": 1992,
+    "data_zerado": 2021,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 5,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Pirata",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/6b180037abbebea991d8b1232f8a8ca9.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/4a421463135a0f5e506740db32d16b97.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Fatal Fury: King of Fighters",
+    "ano_lancamento": 1991,
+    "data_zerado": 2021,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 1,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Pirata",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/e60f9011ef48d8d02f27f16d2a8175c1.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/abbb9125c2097251af06de942156aab8.jpg",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Sonic the Hedgehog",
+    "ano_lancamento": 1991,
+    "data_zerado": 2021,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 5,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/f33ba15effa5c10e873bf3842afb46a6.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/b0b00b17faeeefd1680c86db2a1bf8c6.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Street Fighter II",
+    "ano_lancamento": 1991,
+    "data_zerado": 2021,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 2,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/313e7d092611f0c58251064957ca6b4c.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/0af7b7a01a2b6eb43c4b6bdac55638a0.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Street Fighter II (SNES)",
+    "ano_lancamento": 1991,
+    "data_zerado": 2021,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 2,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Ports",
+    "plataforma": "SNES",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/00e9f6e53d787c147c5b3c95f803287e.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/e4656174f0a5436efd535a9a9d050e09.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Super Castlevania IV",
+    "ano_lancamento": 1991,
+    "data_zerado": 2021,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 6,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "SNES",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/8c53d30ad023ce50140181f713059ddf.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/e6ce24b04e4a46633d409debb0720914.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Super Mario World",
+    "ano_lancamento": 1990,
+    "data_zerado": 2021,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 7,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "SNES",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/2dbf21633f03afcf882eaf10e4b5caca.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/2bf887cd37fa5ba4ce0ba9713013a4f7.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Mega Man 2",
+    "ano_lancamento": 1988,
+    "data_zerado": 2020,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 3,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "NES",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/c622ee983a9f2aca67586e412c638b8e.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/16266c6156a9fda5bbd9ea9a566042bd.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "The Legend of Zelda",
+    "ano_lancamento": 1986,
+    "data_zerado": 2024,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 6,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "NES",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/7e19999864bb17b5cf10e68e3c7e6276.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/e49cc7c344acaf1160fd6c2a0190f056.png",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "Borderlands 2: Captain Scarlet and her Pirate Booty",
+    "ano_lancamento": 2012,
+    "data_zerado": 2025,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 7,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "DLC",
+    "plataforma": "Steam Family",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/52c409f1571f500e28f490a302a12540.png",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/9dd3759c9ab81b8e84def142a991a412.jpg",
+    "review": "Review pendente."
+  },
+  {
+    "titulo": "tModLoader",
+    "ano_lancamento": 2020,
+    "data_zerado": 2023,
+    "tempo_jogo_horas": 10,
+    "conquistas_percentual": 50,
+    "nota_pessoal": 7,
+    "generos": [
+      "Aventura",
+      "Indie"
+    ],
+    "status": "Zerado",
+    "plataforma": "Steam",
+    "icone_url": "https://cdn2.steamgriddb.com/icon/16ad66b2d7d7eda19f34e2f6197e2236.ico",
+    "capa_url": "https://cdn2.steamgriddb.com/grid/aed498e4aa26fe4de198cfbe87fd154c.png",
+    "review": "Review pendente."
+  }
+]
