@@ -1,0 +1,82 @@
+document.addEventListener('DOMContentLoaded', () => {
+    const favCards = document.querySelectorAll('.fav-card');
+    let hoverCaption = document.getElementById('hover-caption');
+
+    if (!hoverCaption) {
+        hoverCaption = document.createElement('div');
+        hoverCaption.id = 'hover-caption';
+        document.body.appendChild(hoverCaption);
+    }
+
+    favCards.forEach(card => {
+        const title = card.getAttribute('data-title');
+
+        card.addEventListener('mouseenter', (e) => {
+            // Exibir a legenda
+            hoverCaption.textContent = title;
+            hoverCaption.style.display = 'block';
+
+            // Posicionar inicialmente no mouse
+            updateCaptionPosition(e);
+        });
+
+        card.addEventListener('mousemove', (e) => {
+            // Atualizar a posição da legenda conforme o mouse se move
+            updateCaptionPosition(e);
+        });
+
+        card.addEventListener('mouseleave', () => {
+            // Esconder a legenda
+            hoverCaption.style.display = 'none';
+        });
+    });
+
+    function updateCaptionPosition(e) {
+        const xOffset = 15; // Distância do cursor em X
+        const yOffset = 15; // Distância do cursor em Y
+
+        let x = e.clientX + xOffset;
+        let y = e.clientY + yOffset;
+
+        // Ajuste para evitar que a legenda saia da tela na direita
+        const captionWidth = hoverCaption.offsetWidth;
+        if (x + captionWidth > window.innerWidth) {
+            x = e.clientX - captionWidth - xOffset;
+        }
+
+        // Ajuste para evitar que a legenda saia da tela na parte inferior
+        const captionHeight = hoverCaption.offsetHeight;
+        if (y + captionHeight > window.innerHeight) {
+            y = e.clientY - captionHeight - yOffset;
+        }
+
+        hoverCaption.style.left = `${x}px`;
+        hoverCaption.style.top = `${y}px`;
+    }
+});
+// Seleciona todos os cards que possuem um data-title e que o hover é desejado
+    const hoverElements = document.querySelectorAll(
+        '.fav-card, .detail-fav-item, .tag-game-cap-item, .ost-link-card' // <-- Adicionado .ost-link-card
+    );
+    // ... (restante do código JS)
+
+            // DEIXA A PÁGINA ATUAL SELECIONADA NA HEADER
+
+(function markActiveNav() {
+  document.addEventListener('DOMContentLoaded', () => {
+    const links = document.querySelectorAll('.main-nav .nav-link');
+    const currentPath = location.pathname.replace(/\/$/, ""); 
+    links.forEach(a => {
+      a.classList.remove('active');
+      const target = a.getAttribute('data-target');
+      const linkPath = a.pathname.replace(/\/$/, ""); 
+      if (currentPath === linkPath) {
+        a.classList.add('active');}
+      else if (linkPath === '/' && currentPath === '') {
+        a.classList.add('active');}
+      else if (target && currentPath.includes(target)) {
+        a.classList.add('active');
+      }
+    });
+  });
+})();
