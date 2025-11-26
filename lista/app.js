@@ -193,7 +193,7 @@ reviewContent.innerHTML = `
 async function renderGames(data = gamesData) {
     if (data.length === 0) {
         try {
-            const response = await fetch('/kissutina/games.json');
+            const response = await fetch('../games.json');
             gamesData = await response.json();
             data = gamesData;
         } catch (error) {
@@ -444,4 +444,5 @@ function initializeListeners() {
     }
   });
 })();
+
 
