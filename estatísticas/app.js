@@ -22,7 +22,7 @@ async function loadData() {
         contentGeral.classList.add('hidden');
         contentGraficos.classList.add('hidden');
 
-        const response = await fetch('\\games.json'); 
+        const response = await fetch('/kissutina/games.json'); 
         if (!response.ok) {
             throw new Error(`Erro ao carregar jogos.json: ${response.statusText}`);
         }
@@ -657,4 +657,5 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   });
+
 })();
