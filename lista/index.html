@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meus Jogos Zerados | Vibing Code</title>
+    <title>Hi Gomes | Lista de Jogos</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
@@ -24,8 +24,9 @@
             <a href="/kissutina/favs/index.html" class="nav-link" data-target="favoritos"><span>Favoritos</span></a>
             <a href="/kissutina/lista/index.html" class="nav-link" data-target="jogos"><span>Lista de Jogos</span></a>
             <a href="/kissutina/estatísticas/index.html" class="nav-link" data-target="estatisticas"></i></i><span>Estatísticas</span></a>
-            <a href="/mapa" class="nav-link" data-target="mapa"><span>Mapa do Site</span></a>
+            <a href="/kissutina/mapa/mapa.html" class="nav-link" data-target="mapa"><span>Mapa do Site</span></a>
         </nav>
+
 
     </header>
 
@@ -37,20 +38,21 @@
         
         <aside id="sidebar-filters" class="sidebar-filters">
             <div class="filter-area">
-                <input type="text" id="search-input" placeholder="🔍 Pesquisar jogos" class="search-input">
+                <input type="text" id="search-input" placeholder="Pesquisar Títulos" class="search-input">
                 
                 <button id="toggle-100-percent" class="filter-toggle" data-active="false">
-            Mostrar Somente 100%
+            Apenas Platinas
         </button>
 
             <select id="status-filter-select" class="filter-select">
                 <option value="Tudo">Todas as Listas</option>
                 <option value="Jogando">Jogando</option>
-                <option value="Zerado">Completos (Zerado/Platinado)</option>
+                <option value="Zerado">Zerados</option>
                 <option value="Sem Fim">Sem Fim</option>
                 <option value="DLC">DLCs</option>
-                                <option value="Ports">Ports</option>
-                                                <option value="Coleções">Coleções</option>
+                <option value="Ports">Ports</option>
+                <option value="Fan">Fangames</option>
+                <option value="Coleções">Coleções</option>
                 <option value="Pausado">Pausados</option>
                 <option value="Dropado">Dropados</option>
                 <option value="Backlog">Backlog</option>
@@ -58,7 +60,7 @@
             </select>
 
             <select id="sort-filter-select" class="filter-select">
-    <option value="titulo_asc">Ordenar por: Título (A-Z)</option>
+    <option value="titulo_asc">Título (A-Z)</option>
     <option value="titulo_desc">Título (Z-A)</option>
     <option value="nota_pessoal_desc">Nota (Maior)</option>
     <option value="nota_pessoal_asc">Nota (Menor)</option>
@@ -73,17 +75,18 @@
         <option value="Steam">Steam</option>
         <option value="Epic">Epic Games</option>
         <option value="PS2">PS2</option>
+        <option value="GOG">GOG</option>
     </select>
 
 <select id="min-score-filter-select" class="filter-select">
-    <option value="0">Nota Mínima (Todas)</option>
+    <option value="0">Notas (Todas)</option>
     <option value="10">10</option>
     <option value="9">9</option>
     <option value="8">8</option>
     <option value="7">7</option>
     <option value="6">6</option>
     <option value="5">5</option>
-        <option value="4">4</option>
+    <option value="4">4</option>
     <option value="3">3</option>
     <option value="2">2</option>
     <option value="1">1</option>
@@ -101,26 +104,11 @@
                                                         <option value="2025">2025</option>
     </select>
 
-<input type="text" id="genre-search-input" placeholder="🔍 Buscar por Gênero..." class="search-input filter-select">
+<input type="text" id="genre-search-input" placeholder="Pesquisar por Gênero..." class="search-input filter-select">
 
-<input type="text" id="release-year-input" placeholder="🔍 Ano Lançamento (Exato)" class="search-input filter-select">
+<input type="text" id="release-year-input" placeholder="Pesquisar por Data..." class="search-input filter-select">
                 </div>
 
-                <!-- CARD DE LINKS RÁPIDOS (Steam / RetroArch) -->
-<div class="quick-links-card" role="region" aria-label="Links rápidos">
-  <h3 class="ql-title">Acessos Rápidos</h3>
-  <p class="ql-sub">Perfis e plataformas</p>
-
-  <div class="ql-buttons">
-    <a href="https://steamcommunity.com/id/seu-usuario" target="_blank" rel="noopener noreferrer" class="ql-btn">
-      <i class="fab fa-steam"></i><span>Meu perfil na Steam</span>
-    </a>
-
-    <a href="https://retroarch.example/usuario" target="_blank" rel="noopener noreferrer" class="ql-btn">
-      <i class="fas fa-gamepad"></i><span>Meu perfil no RetroArch</span>
-    </a>
-  </div>
-</div>
 
 
         </aside>
@@ -281,5 +269,4 @@
     
     <script src="app.js"></script>
 </body>
-
 </html>

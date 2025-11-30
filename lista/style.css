@@ -227,7 +227,7 @@ body {
 
 .search-input {
     width: 100%;
-    padding: 10px 15px;
+    padding: 10px px;
     border-radius: 8px;
     border: 1px solid var(--hover-color);
     background-color: var(--list-bg-color);
@@ -320,7 +320,7 @@ Você precisa reajustar o seu left para que ela apareça na lateral da sidebar. 
     border: 1px solid var(--hover-color);
     background-color: var(--list-bg-color);
     color: var(--text-color);
-    font-size: 1em;
+    font-size: 14px;
     font-weight: 500;
     cursor: pointer;
     text-align: left;
@@ -393,61 +393,6 @@ Você precisa reajustar o seu left para que ela apareça na lateral da sidebar. 
     outline: none;
     border-color: var(--accent-color);
 }
-
-/* Quick links card (estilo coerente com o tema) */
-.quick-links-card {
-    margin-top: 14px;
-    padding: 12px;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.486));
-    border: 1px solid rgba(255,255,255,0.02);
-    border-radius: 10px;
-    box-shadow: 0 6px 18px rgba(3,6,12,0.55);
-    color: var(--text-color);
-}
-.ql-title {
-    margin: 0 0 6px 0;
-    font-size: 14px;
-    font-weight: 700;
-    color: var(--text-color);
-}
-.ql-sub {
-    margin: 0 0 10px 0;
-    font-size: 12px;
-    color: #AEB4B9;
-}
-
-/* botões estilo "cards" */
-.ql-buttons {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-}
-.ql-btn {
-    display: inline-flex;
-    gap: 10px;
-    align-items: center;
-    padding: 10px 12px;
-    border-radius: 8px;
-    text-decoration: none;
-    color: var(--text-color);
-    background-color: rgba(255,255,255,0.02);
-    border: 1px solid rgba(255,255,255,0.02);
-    transition: transform 120ms ease, box-shadow 120ms ease, background 120ms ease;
-    font-size: 14px;
-    
-}
-.ql-btn i { font-size: 16px; width: 18px; text-align: center; }
-
-/* hover/active */
-.ql-btn:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 10px 24px rgba(2,6,23,0.45);
-    background-color: rgba(74,144,226,0.08); /* usa a cor de destaque levemente */
-    border-color: rgba(74,144,226,0.12);
-}
-
-
-
 
 
 

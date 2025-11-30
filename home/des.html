@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hi Gomes | Portfólio</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        /* =========================================================
+           1. CSS GERAL (Mantendo a identidade)
+        ========================================================= */
+        :root {
+            --bg-color: #1a1b1d;
+            --text-color: #ffffff;
+            --hover-color: #313336;
+            --accent-color: #4a90e2;
+            
+            --glass-border: rgba(255,255,255,0.08);
+            --glass-bg: linear-gradient(180deg, rgba(20, 20, 20, 0.6), rgba(20, 20, 20, 0.8));
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif; 
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            min-height: 100vh;
+            padding: 0 0 60px 0; /* Padding lateral removido para o carrossel ir de ponta a ponta */
+            overflow-x: hidden; /* Impede rolagem horizontal indesejada */
+
+            background-image:
+                linear-gradient(rgba(10, 10, 10, 1), rgba(10, 10, 10, 0.75)),
+                url('https://images.steamusercontent.com/ugc/15154045471948863323/D21D6F1318F68C0083EACFC61852E242A5A88FA5/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+
+        /* =========================================================
+           2. HEADER (Fixo e Padronizado)
+        ========================================================= */
+        header {
+            max-width: 1200px;
+            margin: 0 auto;
+            margin-top: 25px;
+            margin-bottom: 50px;
+            padding: 0 20px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid var(--hover-color);
+        }
+
+        .site-header {
+            position: relative;
+            width: 100%;
+            height: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 12px;
+            background: linear-gradient(180deg, rgba(0,0,0,0.06), rgba(0,0,0,0.32));
+            border: 1px solid rgba(255,255,255,0.03);
+            border-radius: 10px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+            color: var(--text-color);
+            backdrop-filter: blur(6px);
+            -webkit-backdrop-filter: blur(6px);
+            overflow: hidden;
+        }
+
+        .header-inner {
+            max-width: 1200px;
+            width: 100%;
+            margin: 0 auto;
+            display: flex;
+            gap: 18px;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .profile { display: flex; gap: 12px; align-items: center; }
+
+        .profile-img.header-img {
+            width: 70px;
+            height: 70px;
+            border-radius: 10px;
+            object-fit: cover;
+            border: 1px solid rgba(255,255,255,0.04);
+            box-shadow: 0 6px 18px rgba(7,7,10,0.35);
+        }
+
+        .profile-text { display: flex; flex-direction: column; line-height: 1; }
+        .profile-name-header { margin: 0; font-size: 30px; font-weight: 600; color: white; padding-left: 10px; }
+
+        .main-nav { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+        
+        .nav-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 7px 10px;
+            border-radius: 10px;
+            font-size: 13px;
+            color: #E6E8EA;
+            text-decoration: none;
+            background: transparent;
+            border: 1px solid transparent;
+            transition: all 160ms ease;
+        }
+        
+        .nav-link:hover {
+            background-color: rgba(74,144,226,0.08);
+            border-color: rgba(74,144,226,0.12);
+            background: rgba(255,255,255,0.02);
+            box-shadow: 0 10px 24px rgba(2,6,23,0.45);
+        }
+        
+        .nav-link.active {
+            background: linear-gradient(90deg, rgba(117,79,171,0.14), rgba(61,119,145,0.10));
+            border-color: rgba(255,255,255,0.04);
+            color: #FFFFFF;
+        }
+
+        /* =========================================================
+           3. PORTFÓLIO (Carrossel Infinito)
+        ========================================================= */
+        
+        .page-title {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 0 20px;
+            animation: fadeIn 1s ease;
+        }
+        .page-title h1 { font-size: 32px; margin-bottom: 5px; }
+        .page-title p { color: #ccc; font-weight: 300; }
+
+        .carousel-container {
+            display: flex;
+            flex-direction: column;
+            gap: 40px; /* Espaço entre as linhas */
+            width: 100%;
+            padding-bottom: 40px;
+        }
+
+        .carousel-row {
+            position: relative;
+            width: 100%;
+            overflow: hidden; /* Esconde o que sai da tela */
+            display: flex;
+            /* Máscara de gradiente nas bordas para dar efeito de fade */
+            mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
+            -webkit-mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
+        }
+
+        /* O trilho que se move */
+        .track {
+            display: flex;
+            gap: 20px; /* Espaço entre as imagens */
+            width: max-content; /* Largura se adapta ao conteúdo */
+        }
+
+        /* As Imagens */
+        .track img {
+            /* ALTURA FIXA PARA TODAS - Ajuste aqui se quiser maior/menor */
+            height: 260px; 
+            width: auto; /* Mantém a proporção */
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+            border: 1px solid rgba(255,255,255,0.1);
+            transition: transform 0.3s ease, filter 0.3s ease;
+            filter: brightness(0.9); /* Um pouco mais escura por padrão */
+        }
+
+        .track img:hover {
+            transform: scale(1.05);
+            filter: brightness(1.1); /* Brilha no hover */
+            border-color: var(--accent-color);
+            z-index: 10;
+        }
+
+        /* Animações de Rolagem */
+        .marquee-left {
+            animation: scrollLeft 40s linear infinite;
+        }
+        
+        .marquee-right {
+            animation: scrollRight 60s linear infinite;
+        }
+
+        /* Pausa a animação quando o mouse passa por cima da LINHA inteira */
+        .carousel-row:hover .track {
+            animation-play-state: paused;
+        }
+
+        @keyframes scrollLeft {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); } /* Move metade, onde começa o clone */
+        }
+
+        @keyframes scrollRight {
+            0% { transform: translateX(-50%); }
+            100% { transform: translateX(0); }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; } to { opacity: 1; }
+        }
+
+        /* Mobile adjustment */
+        @media (max-width: 768px) {
+            .track img { height: 180px; } /* Imagens menores no celular */
+            .carousel-container { gap: 20px; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="site-header" id="site-header">
+        <div class="header-inner">
+            <div class="profile">
+                <img src="https://shared.fastly.steamstatic.com/community_assets/images/items/2055050/03e6938ae269d5fb3c83f6c56e1469b36171ad44.gif" alt="Foto de perfil" class="profile-img header-img">
+                <div class="profile-text">
+                    <h1 class="profile-name-header">Hi Gomes</h1>
+                </div>
+            </div>
+
+        <nav class="main-nav" aria-label="Navegação principal">
+            <a href="/kissutina/home/index.html" class="nav-link" data-target="home"><span>Home</span></a>
+            <a href="/kissutina/favs/index.html" class="nav-link" data-target="favoritos"><span>Favoritos</span></a>
+            <a href="/kissutina/lista/index.html" class="nav-link" data-target="jogos"><span>Lista de Jogos</span></a>
+            <a href="/kissutina/estatísticas/index.html" class="nav-link" data-target="estatisticas"></i></i><span>Estatísticas</span></a>
+            <a href="/kissutina/mapa/mapa.html" class="nav-link" data-target="mapa"><span>Mapa do Site</span></a>
+        </nav>
+        </div>
+    </header>
+
+    <div class="page-title">
+        <h1>Meus Desenho</h1>
+        <p>Quando eu posso, eu rabisco</p>
+    </div>
+
+    <!-- CARROSSEL PRINCIPAL -->
+    <div class="carousel-container">
+
+        <!-- LINHA 1 (Move para Esquerda) -->
+        <div class="carousel-row">
+            <!-- A Track contém as imagens. IMPORTANTE: O conteúdo deve ser DUPLICADO para o loop perfeito -->
+            <div class="track marquee-left">
+                <!-- SET 1 -->
+                <img src="/kissutina/home/i/labirinto.PNG" alt="Arte 1">
+                <img src="/kissutina/home/i/Captura de tela 2025-10-16 123619.png" alt="Arte 2">
+                <img src="/kissutina/home/i/Captura de tela 2025-10-16 022721.png" alt="Arte 3">
+                <img src="/kissutina/home/i/2024 - Zelda - Wind Waker.png" alt="Arte 4">
+                <img src="/kissutina/home/i/2024 - SF - Chun li.PNG" alt="Arte 5">
+                <img src="/kissutina/home/i/2024 - Scott Pilgrim.png" alt="Arte 6">
+                <!-- CLONE (Cópia exata do Set 1) -->
+                <img src="/kissutina/home/i/labirinto.PNG" alt="Arte 1">
+                <img src="/kissutina/home/i/Captura de tela 2025-10-16 123619.png" alt="Arte 2">
+                <img src="/kissutina/home/i/Captura de tela 2025-10-16 022721.png" alt="Arte 3">
+                <img src="/kissutina/home/i/2024 - Zelda - Wind Waker.png" alt="Arte 4">
+                <img src="/kissutina/home/i/2024 - SF - Chun li.PNG" alt="Arte 5">
+                <img src="/kissutina/home/i/2024 - Scott Pilgrim.png" alt="Arte 6">
+            </div>
+        </div>
+
+        <!-- LINHA 2 (Move para Direita) -->
+        <div class="carousel-row">
+            <div class="track marquee-right">
+                <!-- SET 1 -->
+                <img src="/kissutina/home/i/rei.PNG" alt="Arte 7">
+                <img src="/kissutina/home/i/2024 - Rascunhos 2.png" alt="Arte 8">
+                <img src="/kissutina/home/i/2024 - Rascunho 3.png" alt="Arte 9">
+                <img src="/kissutina/home/i/2024 - OC - Kiss.png" alt="Arte 10">
+                <img src="/kissutina/home/i/2024 - OC - Kiss Dark Souls.png" alt="Arte 11">
+                                <img src="/kissutina/home/i/2024 - Itadori.png" alt="Arte 111">
+                                                                <img src="/kissutina/home/i/2022 - Lux 3.jpg" alt="Arte 112">
+                <!-- CLONE -->
+                <img src="/kissutina/home/i/rei.PNG" alt="Arte 7">
+                <img src="/kissutina/home/i/2024 - Rascunhos 2.png" alt="Arte 8">
+                <img src="/kissutina/home/i/2024 - Rascunho 3.png" alt="Arte 9">
+                <img src="/kissutina/home/i/2024 - OC - Kiss.png" alt="Arte 10">
+                <img src="/kissutina/home/i/2024 - OC - Kiss Dark Souls.png" alt="Arte 11">
+                                <img src="/kissutina/home/i/2024 - Itadori.png" alt="Arte 111">
+                                                                <img src="/kissutina/home/i/2022 - Lux 3.jpg" alt="Arte 112">
+            </div>
+        </div>
+
+        <!-- LINHA 3 (Move para Esquerda - Mais lento ou diferente) -->
+        <div class="carousel-row">
+            <div class="track marquee-left">
+                <!-- SET 1 -->
+                <img src="/kissutina/home/i/2024 - Hunter Hunter .png" alt="Arte 12">
+                <img src="/kissutina/home/i/2024 - Frieren - Fern 3.png" alt="Arte 13">
+                <img src="/kissutina/home/i/2024 - Elf.png" alt="Arte 14">
+                <img src="/kissutina/home/i/2024 - Cyberpunk Rebecca.png" alt="Arte 15">
+                <img src="/kissutina/home/i/2023 - Ezio 2.jpg" alt="Arte 16">
+                                <img src="/kissutina/home/i/2022 - Spiderman 2.jpg" alt="Arte 17">
+                <!-- CLONE -->
+                <img src="/kissutina/home/i/2024 - Hunter Hunter .png" alt="Arte 12">
+                <img src="/kissutina/home/i/2024 - Frieren - Fern 3.png" alt="Arte 13">
+                <img src="/kissutina/home/i/2024 - Elf.png" alt="Arte 14">
+                <img src="/kissutina/home/i/2024 - Cyberpunk Rebecca.png" alt="Arte 15">
+                <img src="/kissutina/home/i/2023 - Ezio 2.jpg" alt="Arte 16">
+                                <img src="/kissutina/home/i/2022 - Spiderman 2.jpg" alt="Arte 17">
+            </div>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

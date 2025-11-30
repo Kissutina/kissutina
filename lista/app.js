@@ -359,7 +359,7 @@ function initializeListeners() {
         toggleButton.addEventListener('click', () => {
             currentFilter.is_100_percent = !currentFilter.is_100_percent;
             toggleButton.setAttribute('data-active', currentFilter.is_100_percent);
-            toggleButton.textContent = currentFilter.is_100_percent ? '100% APENAS (ATIVO)' : 'Mostrar Somente 100%';
+            toggleButton.textContent = currentFilter.is_100_percent ? 'Apenas Platinas' : 'Apenas Platinas';
             renderGames(gamesData);
         });
     }
@@ -444,5 +444,3 @@ function initializeListeners() {
     }
   });
 })();
-
-
