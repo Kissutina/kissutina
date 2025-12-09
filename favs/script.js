@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Lista de eventos raros
     const easterEggs = [
         {
-            chance: 0.9, // 33% de chance
+            chance: 0.1, // 33% de chance
             action: () => {
                 const card = document.querySelector('[data-title="Zelda"]');
                 if (!card) return;
@@ -93,7 +93,7 @@ document.addEventListener("DOMContentLoaded", () => {
         },
 
                 {
-            chance: 0.33, // 33% de chance
+            chance: 0.3, // 33% de chance
             action: () => {
                 const card = document.querySelector('[data-title="Zelda"]');
                 if (!card) return;
@@ -115,3 +115,4 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 });
+
