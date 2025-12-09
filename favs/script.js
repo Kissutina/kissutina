@@ -5,31 +5,27 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!hoverCaption) {
         hoverCaption = document.createElement('div');
         hoverCaption.id = 'hover-caption';
-        document.body.appendChild(hoverCaption);
+        docu
+        ment.body.appendChild(hoverCaption);
     }
+favCards.forEach(card => {
 
-    favCards.forEach(card => {
-        const title = card.getAttribute('data-title');
-
-        card.addEventListener('mouseenter', (e) => {
-            // Exibir a legenda
-            hoverCaption.textContent = title;
-            hoverCaption.style.display = 'block';
-
-            // Posicionar inicialmente no mouse
-            updateCaptionPosition(e);
-        });
-
-        card.addEventListener('mousemove', (e) => {
-            // Atualizar a posição da legenda conforme o mouse se move
-            updateCaptionPosition(e);
-        });
-
-        card.addEventListener('mouseleave', () => {
-            // Esconder a legenda
-            hoverCaption.style.display = 'none';
-        });
+    card.addEventListener('mouseenter', (e) => {
+        // sempre pega o valor ATUAL do data-title
+        hoverCaption.textContent = card.getAttribute('data-title');
+        hoverCaption.style.display = 'block';
+        updateCaptionPosition(e);
     });
+
+    card.addEventListener('mousemove', (e) => {
+        updateCaptionPosition(e);
+    });
+
+    card.addEventListener('mouseleave', () => {
+        hoverCaption.style.display = 'none';
+    });
+});
+
 
     function updateCaptionPosition(e) {
         const xOffset = 15; // Distância do cursor em X
@@ -80,3 +76,42 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 })();
+
+document.addEventListener("DOMContentLoaded", () => {
+    // Lista de eventos raros
+    const easterEggs = [
+        {
+            chance: 0.9, // 33% de chance
+            action: () => {
+                const card = document.querySelector('[data-title="Zelda"]');
+                if (!card) return;
+
+                card.querySelector("img").src = "/kissutina/favs/imagens/zelda1.png";
+                card.querySelector(".fav-rank").textContent = "✨";
+                card.dataset.title = "Definitivamente não é a Zelda";
+            }
+        },
+
+                {
+            chance: 0.33, // 33% de chance
+            action: () => {
+                const card = document.querySelector('[data-title="Zelda"]');
+                if (!card) return;
+
+                card.querySelector("img").src = "/kissutina/favs/imagens/zelda2.png";
+                card.querySelector(".fav-rank").textContent = "✨";
+                card.dataset.title = "Tetra";
+            }
+        },
+
+
+
+    ];
+
+    // Executa cada evento individualmente
+    easterEggs.forEach(event => {
+        if (Math.random() < event.chance) {
+            event.action();
+        }
+    });
+});

@@ -1,14 +1,12 @@
-// app.js
-
 // Elementos principais
 const GAME_COVER_PREVIEW = document.getElementById('game-cover-preview'); // Pega o elemento da capa
 const PREVIEW_IMAGE = document.getElementById('preview-image'); // Pega a imagem dentro da capa
 let gamesData = [];
 
-let currentFilter = {
+let currentFilter = { // FILTROS INICIAIS, É COMO A PÁGINA CARREGA
     search: '',
     is_100_percent: false,
-    status: 'Tudo', // filtro inicial
+    status: 'Tudo', 
     platform: 'Tudo',
     min_score: '0',
     played_year: 'Tudo',
@@ -16,7 +14,7 @@ let currentFilter = {
     genre_search: ''
 };
 
-let currentSort = 'titulo_asc'; // Ordenação padrão
+let currentSort = 'titulo_asc'; // FILTROS INICIAIS, É COMO A PÁGINA CARREGA
 
 // STATUS_MAP (verifica se os IDs existem)
 const STATUS_MAP = {
@@ -29,6 +27,7 @@ const STATUS_MAP = {
     'Sem Fim': document.getElementById('games-semfim'),
     'DLC': document.getElementById('games-dlc'),
     'Ports': document.getElementById('games-ports'),
+    'Fangames': document.getElementById('games-fangames'),
     'Coleções': document.getElementById('games-col'),
 };
 Object.entries(STATUS_MAP).forEach(([k, el]) => {

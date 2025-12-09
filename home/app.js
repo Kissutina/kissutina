@@ -18,3 +18,12 @@
     });
   });
 })();
+
+window.addEventListener("load", () => {
+    document.querySelectorAll(".track").forEach(track => {
+        // re-trigger animation
+        track.style.animation = "none";
+        void track.offsetWidth; // força recalcular layout
+        track.style.animation = "";
+    });
+});

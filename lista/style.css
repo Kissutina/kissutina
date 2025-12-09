@@ -1,39 +1,188 @@
 /* Variáveis para fácil ajuste de VIBE */
 :root {
-    --bg-color: #1a1b1d; /* Fundo escuro */
-    --text-color: #ffffff; /* Texto branco */
-    --list-bg-color: #252628; /* Fundo da lista (um pouco mais claro que o bg) */
-    --hover-color: #313336; /* Fundo ao passar o mouse */
-    --accent-color: #4a90e2; /* Cor de destaque (um azul Anilist) */
+    --bg-color: #000000; /* cor sólida no plano de fundo (APENAS SE A IMAGEM NÃO CARREGAR) */
+    --text-color: #ffffff; /* cor do texto (MUDAR ISSO NÃO ALTERA NADA (??)) */
+    --list-bg-color: #262825; /* Fundo da lista (um pouco mais claro que o bg) */
+    --hover-color: #313336; /* Fundo ao passar o mouse (MUDAR ISSO NÃO ALTERA NADA (??)) */
+    --accent-color: #4a90e2; /* Cor de destaque principal (O AZUL DOS ÍCONES) */
+
+    --glass-border: rgba(255,255,255,0.08); /* Borda dos cards dos links  */
+    --glass-bg: linear-gradient(180deg, rgba(20, 20, 20, 0.6), rgba(20, 20, 20, 0.8)); /* Cor interna dos cards dos links  */
+    --header-height: 86px;
 }
 
-* {
+* { /* (EM GERAL EU NÃO SEI O QUE ISSO FAZ) */
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: sans-serif; /* Mudar para uma fonte 'vibing' depois! */
+    font-family: sans-serif; /* FONTE PRINCIPAL */
 }
 
 body {
     background-color: var(--bg-color);
     color: var(--text-color);
-    padding: 20px;
+    padding: 0 20px;
+    min-height: 100vh;
+
+
+    /* BACKGROUND */
+    background-image:
+        linear-gradient(rgba(10, 10, 10, 1), rgba(10, 10, 10, 0.75)),
+        url('https://images.steamusercontent.com/ugc/2473117766786086501/54E9E55A687583D29D836837D73D220CF24DA0E7/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
+           /*2. HEADER ///////////////////////////////////////////*/
+           /*2. HEADER ///////////////////////////////////////////*/
+           /*2. HEADER ///////////////////////////////////////////*/
+
+header {
+    max-width: 1200px; /* LARGURA DA HEADER */
+    margin: 0 auto;
+    margin-top: 25px; /* ESPAÇO ENTRE A HEADER E O TOPO DA PÁGINA */
+    margin-bottom: 40px; /* ESPAÇO ENTRE A HEADER E O CONTEÚDO DA PÁGINA */
+    border-bottom: 2px solid var(--hover-color);
+}
+
+.site-header {
+    position: relative;
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 12px; /* Distância entre o conteúdo da header e as suas bordas */
+    background: linear-gradient(180deg, rgba(0,0,0,0.06), rgba(0,0,0,0.32));
+
+    border: 1px solid rgba(255,255,255,0.03);
+    border-radius: 10px;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+
+    color: var(--text-color);
+
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+
+    overflow: hidden;
+}
+
+
+.header-inner {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.profile {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.profile-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    object-fit: cover;
+
+    border: 1px solid rgba(255,255,255,0.04);
+    box-shadow: 0 6px 18px rgba(7,7,10,0.35);
+}
+
+.profile-name-header { /* REFERENTE AO TEXTO "HI GOMES" */
+    margin: 0;
+    font-size: 30px;  /* TAMANHO */
+    font-weight: 600; /* ESPERSSURA */
+    color: white; /* COR*/
+    padding-left: 10px; /* DISTÃNCIA DA IMAGEM" */
+}
+
+.main-nav {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-link {
+        font-family: sans-serif;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+    padding: 7px 10px;
+    border-radius: 10px;
+
+    font-size: 13px; /* TAMANHO DOS TEXTOS DA NAVEGAÇÃO */
+    color: #E6E8EA; /* COR DOS TEXTOS DE NAVEGAÇÃO */
+    text-decoration: none;
+
+    background: transparent;
+    border: 1px solid transparent;
+
+    transition: all 160ms ease;
+}
+
+
+.nav-link i {
+    font-size: 13px;
+}
+
+
+.nav-link span {
+    display: inline-block;
+}
+
+
+.nav-link:hover {
+    background-color: rgba(74,144,226,0.08);
+    border-color: rgba(74,144,226,0.12);
+
+    background: rgba(255,255,255,0.02);
+    box-shadow: 0 10px 24px rgba(2,6,23,0.45);
+}
+
+
+.nav-link.active {
+    background: linear-gradient(90deg, rgba(117,79,171,0.14), rgba(61,119,145,0.10));
+    border-color: rgba(255,255,255,0.04);
+    color: #FFFFFF;
+    transform: none;
+}
+           /*2. LISTA ///////////////////////////////////////////*/
+           /*2. LISTA ///////////////////////////////////////////*/
+           /*2. LISTA ///////////////////////////////////////////*/
 
 /* Exemplo no style.css: Garante que o cabeçalho se alinhe com o wrapper principal */
 
 
 /* --- Container da Lista --- */
+
 .game-list-container {
-    background-color: var(--list-bg-color);
+    background-color: rgba(20, 20, 20, 0.6);
+    border: 1px solid var(--glass-border);
     border-radius: 8px;
-    overflow: hidden;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     max-width: 1000px;
-    margin: 0 auto;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
-    
-    
+    overflow: hidden;
+    margin: 0px; /* É A DISTANCIA DA BORDA DA LISTA ATÈ AS OUTRAS COISAS */
+    padding: 0px; /* É A DISTANCIA DAS BORDAS ATÉ O CONTEÚDO COMEÇAR */
+    flex-grow: 1; /* Faz a lista ocupar o espaço restante */
 }
+
 
 .list-header, .game-row {
     display: grid;
@@ -70,10 +219,10 @@ body {
 }
 
 .list-header {
-    background-color: var(--hover-color);
+    background-color: rgba(0, 0, 0, 0.9);
     font-weight: bold;
     font-size: 0.9em;
-    color: #aaaaaa;
+    color: #ffffff;
     
 }
 
@@ -102,8 +251,9 @@ body {
     display: none;
     grid-column: 1 / -1; /* Ocupa todas as colunas */
     padding: 20px 15px;
-    background-color: #1a1a1a; /* Fundo mais escuro para a expansão */
-    border-top: 1px dashed var(--hover-color);
+    background-color: rgba(20, 20, 20, 0.6); /* Fundo mais escuro para a expansão */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     
 }
 
@@ -137,7 +287,7 @@ body {
     visibility: hidden;
     z-index: 100;
     pointer-events: none;
-    border: 1px solid var(--accent-color);
+    border: 1px solid black;
     transition: opacity 0.15s ease, transform 0.15s ease;
     transform: translateY(0); /* Mantém centralização vertical */
 }
@@ -177,16 +327,7 @@ body {
 }
 
 /* --- Container da Lista (ajustes) --- */
-.game-list-container {
-    background-color: var(--list-bg-color);
-    border-radius: 8px;
-    overflow: hidden;
-    /* max-width: 1000px;  Não precisa mais de max-width aqui, o wrapper controla */
-    margin: 0px;
-    padding: 0px;
-    flex-grow: 1; /* Faz a lista ocupar o espaço restante */
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
-}
+
 
 /* Estilo para destacar os valores de Nota, Ano e Progresso */
 .data-highlight {
@@ -194,7 +335,7 @@ body {
     padding: 4px 8px; /* Espaçamento interno */
     border-radius: 6px; /* Bordas arredondadas */
     font-weight: bold; /* Deixa o texto em negrito */
-    background-color: var(--hover-color); /* Usa a cor de fundo mais clara (como o cabeçalho) */
+    background-color: rgba(0, 0, 0, 0.9); /* Usa a cor de fundo mais clara (como o cabeçalho) */
     color: var(--text-color);
     min-width: 40px; /* Garante uma largura mínima para padronização */
     text-align: center; /* Centraliza o texto dentro do bloco */
@@ -212,7 +353,7 @@ body {
 }
 
 .data-highlight.trophy-bg {
-    background-color: #555555; /* Cinza Escuro */
+    background-color: rgba(175, 175, 175, 0.2); /* Cinza Escuro */
     color: white;
     min-width: 80px; 
 }
@@ -230,7 +371,7 @@ body {
     padding: 10px px;
     border-radius: 8px;
     border: 1px solid var(--hover-color);
-    background-color: var(--list-bg-color);
+    background-color: rgba(20, 20, 20, 0.6);
     color: var(--text-color);
     font-size: 1em;
     transition: border-color 0.2s;
@@ -275,11 +416,10 @@ body {
 /* --- Estilos para a Área de Pesquisa/Filtro --- */
 .filter-area {
     padding: 10px; /* Padding interno da sidebar */
-    background-color: var(--list-bg-color);
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     margin: 0;
-    background: linear-gradient(180deg, rgba(0,0,0,0.12), rgba(0,0,0,0.48)); /* degradê preto sutil -> mais escuro */
+    background: rgba(0, 0, 0, 0.9); /* degradê preto sutil -> mais escuro */
   border: 1px solid rgba(255,255,255,0.04);   /* borda sutil */
   border-radius: 10px;
   padding: 12px;
@@ -330,7 +470,7 @@ Você precisa reajustar o seu left para que ela apareça na lateral da sidebar. 
   border-radius: 8px;
   text-decoration: none;
   color: var(--text-color);
-  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.00));
+  background: rgba(20, 20, 20, 0.8);
   border: 1px solid rgba(255,255,255,0.03);
   transition: transform .12s ease, box-shadow .12s ease, background .12s ease;
       display: block;
@@ -341,7 +481,6 @@ Você precisa reajustar o seu left para que ela apareça na lateral da sidebar. 
     border: 1px solid var(--hover-color);
     
     /* CRUCIAIS PARA O DARK MODE E PARA TIRAR O ESTILO PADRÃO: */
-    background-color: var(--list-bg-color); /* Fundo escuro */
     color: var(--text-color); /* Texto branco */
     appearance: none; /* Remove a seta padrão do navegador */
     
@@ -352,12 +491,11 @@ Você precisa reajustar o seu left para que ela apareça na lateral da sidebar. 
 
 /* Estilo para quando o filtro 100% estiver ATIVO */
 #toggle-100-percent[data-active="true"] {
-    background-color: var(--accent-color); /* Cor de destaque para indicar que está ativo */
+    background-color: rgba(175, 175, 175, 0.2); /* Cor de destaque para indicar que está ativo */
     color: white; /* Garante que o texto seja legível na cor de destaque */
     border-color: var(--accent-color);
     box-shadow: 0 10px 24px rgba(2,6,23,0.45);
-  background: linear-gradient(180deg, rgba(74,144,226,0.06), rgba(74,144,226,0.02));
-  border-color: rgba(74,144,226,0.12);
+  border-color: black;
   
 }
 
@@ -383,7 +521,7 @@ Você precisa reajustar o seu left para que ela apareça na lateral da sidebar. 
     border-radius: 8px;
     text-decoration: none;
     color: var(--text-color);
-    background-color: rgba(255,255,255,0.02);
+    background-color:rgba(20, 20, 20, 0.6);
     border: 1px solid rgba(255,255,255,0.02);
     transition: transform 120ms ease, box-shadow 120ms ease, background 120ms ease;
     font-size: 14px;
@@ -407,7 +545,6 @@ Você precisa reajustar o seu left para que ela apareça na lateral da sidebar. 
     border: 1px solid var(--hover-color);
     
     /* CRUCIAIS PARA O DARK MODE E PARA TIRAR O ESTILO PADRÃO: */
-    background-color: var(--list-bg-color); /* Fundo escuro */
     color: var(--text-color); /* Texto branco */
     appearance: none; /* Remove a seta padrão do navegador */
     
@@ -464,177 +601,3 @@ Você precisa reajustar o seu left para que ela apareça na lateral da sidebar. 
   width: 18px;
   text-align: center;
 }
-
-/* ============================================
-   BASE — fundo escuro e estrutura geral
-============================================ */
-
-body {
-    background-color: var(--bg-color);
-    color: var(--text-color);
-    padding: 20px 0;
-    min-height: 100vh;
-    padding-top: calc(var(--header-height) + 20px);
-
-    /* BACKGROUND */
-    background-image:
-        linear-gradient(rgba(10, 10, 10, 1), rgba(10, 10, 10, 0.75)),
-        url('https://images.steamusercontent.com/ugc/2473117766786086501/54E9E55A687583D29D836837D73D220CF24DA0E7/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-}
-
-root {
-    --header-height: 86px;
-}
-
-
-/* ============================================
-   HEADER — versão não fixa
-============================================ */
-
-header {
-    max-width: 1200px;
-    margin: 0 auto;
-    margin-top: 25px;
-    margin-bottom: 30px;
-    padding: 0 20px;
-    padding-bottom: 15px;
-    border-bottom: 2px solid var(--hover-color);
-}
-
-.site-header {
-    position: relative;
-    width: 100%;
-    height: auto;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    padding: 12px;
-    background: linear-gradient(180deg, rgba(0,0,0,0.06), rgba(0,0,0,0.32));
-
-    border: 1px solid rgba(255,255,255,0.03);
-    border-radius: 10px;
-
-    box-shadow: 0 8px 20px rgba(0,0,0,0.6);
-
-    color: var(--text-color);
-
-    backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(6px);
-
-    overflow: hidden;
-}
-
-
-/* ============================================
-   HEADER INNER — conteúdo centralizado
-============================================ */
-
-.header-inner {
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
-
-    display: flex;
-    gap: 18px;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-
-/* ============================================
-   PERFIL
-============================================ */
-
-.profile {
-    display: flex;
-    gap: 12px;
-    align-items: center;
-}
-
-.profile-img {
-    width: 70px;
-    height: 70px;
-    border-radius: 10px;
-    object-fit: cover;
-
-    border: 1px solid rgba(255,255,255,0.04);
-    box-shadow: 0 6px 18px rgba(7,7,10,0.35);
-}
-
-.profile-text {
-    display: flex;
-    flex-direction: column;
-    line-height: 1;
-}
-
-.profile-name {
-        font-family: 'Poppins', sans-serif;
-    margin: 0;
-    font-size: 30px;
-    color: white;
-    padding-left: 10px;
-}
-
-
-/* ============================================
-   NAVEGAÇÃO (compacta)
-============================================ */
-
-.main-nav {
-    display: flex;
-    gap: 8px;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.nav-link {
-        font-family: 'Poppins', sans-serif;
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-
-    padding: 7px 10px;
-    border-radius: 10px;
-
-    font-size: 13px;
-    color: #E6E8EA;
-    text-decoration: none;
-
-    background: transparent;
-    border: 1px solid transparent;
-
-    transition: all 160ms ease;
-}
-
-.nav-link i {
-    font-size: 13px;
-}
-
-.nav-link span {
-    display: inline-block;
-}
-
-
-/* Hover / Active */
-.nav-link:hover {
-    background-color: rgba(74,144,226,0.08);
-    border-color: rgba(74,144,226,0.12);
-
-    background: rgba(255,255,255,0.02);
-    box-shadow: 0 10px 24px rgba(2,6,23,0.45);
-}
-
-.nav-link.active {
-    background: linear-gradient(90deg, rgba(117,79,171,0.14), rgba(61,119,145,0.10));
-    border-color: rgba(255,255,255,0.04);
-    color: #FFFFFF;
-    transform: none;
-}
-
