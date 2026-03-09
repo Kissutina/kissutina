@@ -1,0 +1,224 @@
+:root{
+   /* CORES PRINCIPAIS */ 
+   --cor-cinza-escuro: #333536;
+   --cor-cinza-claro: #b0b8bf;
+   --cor-principal: #22b9cf;
+   --cor-secundária: #1c82a8;
+   --cor-destaque: 	#a50f5e
+}
+
+body {
+  background-color: var(--cor-cinza-escuro);
+}
+
+/* #2 HEADER *//* #2 HEADER *//* #2 HEADER */
+/* #2 HEADER *//* #2 HEADER *//* #2 HEADER */
+/* #2 HEADER *//* #2 HEADER *//* #2 HEADER */
+
+.header {
+
+    font-family: 'Montserrat', sans-serif; /* Usando a fonte que sugerimos antes */
+    display: flex; /* Ativa os superpoderes de alinhamento */
+    justify-content: space-between; /* Empurra um pra esquerda, outro pra direita */
+    align-items: center; /* Garante que fiquem alinhados na altura (meio vertical) */
+    
+    padding: 10px 20%; /* Espaço interno: 20px em cima/baixo, 40px nos lados */
+    background-color: var(--cor-secundária); /* Fundo preto ou transparente */
+    margin: 10px;
+    margin-left: 10% ;
+    margin-right: 10%;
+    z-index: 50;
+    box-sizing: border-box;
+    border-color: var(--cor-cinza-claro);
+    border-radius: 40px;    
+    margin-bottom: 50px;
+}
+
+/* 2. O LOGO */
+.logo img {
+    height: 50px; /* Define a altura, a largura ajusta automático */
+    display: block; /* Remove espaços extras */
+    border-radius: 10px;
+}
+
+/* 3. O MENU (A lista de links) */
+.menu ul {
+    display: flex; /* Coloca os itens da lista um ao lado do outro */
+    gap: 30px;     /* Espaço entre cada link */
+    list-style: none; /* Remove as bolinhas da lista */
+    margin: 0;
+    padding: 0;
+}
+
+/* 4. OS LINKS (O texto clicável) */
+.menu a {
+    text-decoration: none; /* Remove o sublinhado azul feio */
+    color: white;           /* Cor do texto */
+    font-size: 1rem;
+    font-weight: 700;
+    transition: 0.3s;      /* Suaviza a mudança de cor */
+}
+
+/* Efeito quando passa o mouse */
+.menu a:hover {
+    color: var(--cor-principal); /* Fica cinza claro */
+}
+
+    /* --- ORGANIZAÇÃO BÁSICA --- */
+    /* --- ORGANIZAÇÃO BÁSICA --- */
+    /* --- ORGANIZAÇÃO BÁSICA --- */
+
+    .main-content-wrapper {
+        max-width: 1200px; /* Largura máxima do seu conteúdo */
+        margin: 30px auto;
+        padding: 0 20px;
+        display: flex; /* Habilita layout em coluna */
+        gap: 30px; /* Espaço entre a sidebar e a lista */
+        align-items: flex-start; /* Garante que tudo comece no topo */   
+    }
+
+/* ACABOU A HEADER */
+/* ACABOU A HEADER */
+/* ACABOU A HEADER */
+
+
+
+
+        /* --- ESTILOS GERAIS --- */
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+        body { color: white}
+        
+        h1 { text-align: center; margin-bottom: 40px; color: var(--cor-principal); text-transform: uppercase; letter-spacing: 2px; }
+
+        /* --- SEÇÕES --- */
+        .category-section { max-width: 1200px; margin: 0 auto 20px auto; }
+        
+        .category-header {
+            display: flex; justify-content: space-between; align-items: center;
+            padding: 15px 20px; background-color: var(--cor-secundária); cursor: pointer;
+            border-left: 5px solid var(--cor-cinza-claro); border-radius: 5px; margin-bottom: 15px;
+            transition: background 0.3s; user-select: none;
+        }
+        .category-header:hover { background-color: var(--cor-principal) }
+        .category-title { font-size: 1.5rem; font-weight: bold; }
+        .toggle-icon { color: var(--cor-cinza-escuro); transition: transform 0.3s; }
+        .icon-closed { transform: rotate(-90deg); }
+
+        /* --- GRID --- */
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 20px;
+            animation: fadeIn 0.5s;
+            align-items: end; /* Alinha os cards na base se o texto de cima for grande */
+        }
+        .hidden { display: none; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(-10px); } to { opacity: 1; transform: translateY(0); } }
+
+        /* --- NOVO: TÍTULO DO PRÊMIO (SOLICITADO) --- */
+        .award-wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 8px; /* Espaço entre o título do prêmio e o card */
+        }
+
+        .award-label {
+            color: var(--cor-cinza-claro);
+            text-align: center;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: bold;
+            border-bottom: 1px solid #333;
+            padding-bottom: 5px;
+        }
+
+        /* --- CARD FLIP --- */
+        .card {
+            background-color: transparent; aspect-ratio: 2/3; perspective: 1000px; cursor: pointer; width: 100%;
+        }
+        .card-inner {
+            position: relative; width: 100%; height: 100%; text-align: center;
+            transition: transform 0.6s; transform-style: preserve-3d;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3); border-radius: 8px;
+        }
+        .card:hover .card-inner { transform: rotateY(180deg); }
+        
+        .card-front, .card-back {
+            position: absolute; width: 100%; height: 100%;
+            -webkit-backface-visibility: hidden; backface-visibility: hidden;
+            border-radius: 8px; overflow: hidden;
+        }
+        .card-front { background-color: #1e1e1e; }
+        .card-front img { width: 100%; height: 100%; object-fit: cover; }
+        
+        .rank-badge {
+            position: absolute; top: 0; left: 0; background-color: var(--cor-principal); color: #000;
+            font-weight: bold; padding: 4px 10px; border-bottom-right-radius: 8px; z-index: 2;
+        }
+
+        
+        .card:hover .card-title-overlay { opacity: 0; }
+
+        .card-back {
+            background-color: #2a2a2a; color: white; transform: rotateY(180deg);
+            display: flex; flex-direction: column; align-items: center; justify-content: center;
+            padding: 20px; box-shadow: inset 0 0 20px rgba(0,0,0,0.5);
+        }
+        .card-back h3 { color: var(--cor-principal); margin-bottom: 10px; font-size: 1.1rem; text-align: center; }
+        .card-back p {
+            font-size: 0.85rem; line-height: 1.5; text-align: justify;
+            hyphens: auto; -webkit-hyphens: auto; width: 100%;
+        }
+
+        @media (max-width: 768px) { .grid-container { grid-template-columns: repeat(2, 1fr); } }
+
+        /* Grid específico para vídeos (fica melhor com 3 por linha) */
+    .grid-container.video-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .video-card {
+        background-color: #1e1e1e;
+        border-radius: 8px;
+        overflow: hidden;
+        transition: transform 0.3s;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    }
+
+    .video-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 0 15px rgba(255, 204, 0, 0.3);
+    }
+
+    /* O "truque" para o vídeo ficar responsivo (16:9) */
+    .video-wrapper {
+        position: relative;
+        padding-bottom: 56.25%; /* Proporção 16:9 */
+        height: 0;
+        background-color: #000;
+    }
+
+    .video-wrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .yt-caption {
+        padding: 15px;
+        text-align: center;
+        color: #ffcc00;
+        font-weight: bold;
+        font-size: 1rem;
+        background-color: #252525;
+    }
+
+    /* Ajuste para celular */
+    @media (max-width: 768px) {
+        .grid-container, .grid-container.video-grid {
+            grid-template-columns: repeat(1, 1fr); /* 1 por linha no celular */
+        }
+    }

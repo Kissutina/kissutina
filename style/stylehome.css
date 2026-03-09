@@ -1,0 +1,776 @@
+:root{
+   /* CORES PRINCIPAIS */ 
+   --cor-fundo: #0e0d0f;
+   --cor-header: #29282c;
+   --cor-txt-header: #aaa;
+   --cor-txt-cinza: rgba(255, 255, 255, 0.7);
+    --cor-cinza-escuro: #333536;
+   --cor-cinza-claro: #b0b8bf;
+   --cor-principal: #22b9cf;
+   --cor-secundária: #1c82a8;
+   --cor-destaque: 	#a50f5e
+}
+
+body{
+  background: var(--cor-cinza-escuro)
+}
+
+/* Container principal */
+.container-home {
+    position: relative; /* Importante para posicionamento absoluto interno */
+    width: 80%; /* Largura do container */
+    max-width: 800px; /* Largura máxima */
+    left: 29%;
+    top: 5%;
+    /* Dourado/Laranja subindo */
+background: radial-gradient(
+        circle at center center, 
+        rgba(28, 130, 168, 0.1) 0%, 
+        transparent 70%)
+}
+
+/* Estilo da imagem */
+.imagem-centro {
+    width: 100%; /* A imagem ocupa 100% do container */
+    height: auto; /* Altura automática (mantém proporção) */
+    display: block; /* Remove espaços abaixo da imagem */
+}
+
+
+/* 3. O Bloco de Texto (A mágica acontece aqui) */
+    .texto-home {
+        font-family: "Zalando Sans Expanded", sans-serif;
+        position: absolute; /* Flutua por cima da imagem */
+        bottom: 500px;       /* Fica 20px acima do final da imagem */
+        left: -70px;
+        width: 100%;        /* Ocupa toda a largura */
+        text-align: left; /* Centraliza o texto horizontalmente */
+        color: white;       /* Texto branco para contrastar */
+    }
+
+    /* 4. Estilização dos Textos */
+    .texto-home p {
+        margin: 0;
+        /* No seu h1 e p */
+-webkit-text-stroke: 2px black; /* Largura da borda e cor */
+paint-order: stroke fill;       /* Garante que a borda fique "atrás" do preenchimento */
+        font-size: 2rem;
+        font-weight: 300;
+        letter-spacing: 5px; /* Espaçamento chique nas letras pequenas */
+        opacity: 0.9;
+    }
+
+    .texto-home h1 {
+        margin: -8px 0;    /* Aproxima o título dos textos pequenos */
+        font-size: 9rem;   /* Tamanho GIGANTE */
+        /* No seu h1 e p */
+-webkit-text-stroke: 5px black; /* Largura da borda e cor */
+paint-order: stroke fill;       /* Garante que a borda fique "atrás" do preenchimento */
+        font-weight: 900;  /* Bem grosso */
+        line-height: 1;    /* Evita que o texto ocupe muita altura */
+        margin-left: -6px;
+    }
+
+    /* --- Configuração do Grid --- */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-auto-rows: 50px; 
+    gap: 10px;
+    padding: 20px;
+    max-width: 1200px;
+    
+    /* ALTERAÇÕES AQUI */
+    margin: -400px auto 0; /* O primeiro valor negativo puxa o grid para cima */
+    position: relative;    /* Necessário para o z-index funcionar */
+    z-index: 10;           /* Garante que fique na frente da imagem */
+}
+
+/* --- Estilo dos Itens --- */
+.grid-item {
+
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px; /* Opcional: bordas arredondadas */
+    transition: transform 0.3s ease;
+    display: block; /* Importante para o link ocupar todo espaço */
+}
+
+/* Efeito ao passar o mouse */
+.grid-item:hover {
+    transform: scale(0.98);
+    z-index: 2;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+    border: 0.2px solid #ffffff; /* Cor da borda (branco) */
+    box-sizing: border-box;    /* IMPORTANTE: Faz a borda ficar "dentro" do tamanho, pra não quebrar o grid */
+}
+
+/* A imagem ocupa 100% do bloco e corta o excesso */
+.grid-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    display: block;
+}
+
+/* --- Classes Utilitárias de Tamanho (O Pulo do Gato) --- */
+
+/* Larguras (Width) - Ocupa X colunas */
+.w-2  { grid-column: span 2; }
+.w-4  { grid-column: span 4; }
+.w-6  { grid-column: span 6; }
+.w-8  { grid-column: span 8; }
+.w-12 { grid-column: span 12; }
+.w-16 { grid-column: span 16; } /* Largura total */
+
+/* Alturas (Height) - Ocupa X linhas */
+.h-2  { grid-row: span 2; }
+.h-4  { grid-row: span 4; }
+.h-6  { grid-row: span 6; }
+.h-8  { grid-row: span 8; }
+.h-12 { grid-row: span 12; }
+.h-16 { grid-row: span 16; }
+
+/* --- Responsividade (Celular) --- */
+@media (max-width: 768px) {
+    .grid-container {
+        /* No celular, 16 colunas é muito. Vamos mudar para 4. */
+        grid-template-columns: repeat(4, 1fr); 
+    }
+    
+    /* Ajusta classes grandes para caberem na tela pequena */
+    .w-6, .w-8, .w-12, .w-16 { grid-column: span 4; } 
+}
+
+    /* #3 PÁGINA DA LISTA DE JOGOS */
+    /* #3 PÁGINA DA LISTA DE JOGOS */
+    /* #3 PÁGINA DA LISTA DE JOGOS */
+
+    /* --- ORGANIZAÇÃO BÁSICA --- */
+    /* --- ORGANIZAÇÃO BÁSICA --- */
+    /* --- ORGANIZAÇÃO BÁSICA --- */
+
+    .main-content-wrapper {
+        max-width: 1200px; /* Largura máxima do seu conteúdo */
+        margin: 30px auto;
+        padding: 0 20px;
+        display: flex; /* Habilita layout em coluna */
+        gap: 30px; /* Espaço entre a sidebar e a lista */
+        align-items: flex-start; /* Garante que tudo comece no topo */   
+    }
+
+    /* --- LISTA --- */
+        /* --- LISTA --- */
+            /* --- LISTA --- */
+
+    .list-main-area {
+    flex-grow: 1; /* Ocupa todo o espaço restante */
+    min-width: 600px; /* Evita que a lista fique muito estreita */
+} 
+            
+    .game-list-container {
+    background-color: var(--cor-header);
+    border: 1px solid var(--glass-border);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    max-width: 1000px;
+    overflow: hidden;
+    margin: 0px; /* É A DISTANCIA DA BORDA DA LISTA ATÈ AS OUTRAS COISAS */
+    padding: 0px; /* É A DISTANCIA DAS BORDAS ATÉ O CONTEÚDO COMEÇAR */
+    flex-grow: 1; /* Faz a lista ocupar o espaço restante */
+}
+
+.list-header, .game-row {
+    font-family: 'Montserrat', sans-serif; /* Usando a fonte que sugerimos antes */
+    display: grid;
+    /* Define o layout das colunas: Ícone/Título (peso maior), Nota, Ano, Progresso */
+    grid-template-columns: 70px 1fr 100px 80px 100px;
+    padding: 10px 5px 10px 5px;
+    align-items: center;
+    border-bottom: 1px solid var(--hover-color);
+    
+}
+
+    /* Ajuste específico para o ícone, se necessário, para garantir que a imagem esteja centralizada */
+.col-icon {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente o ícone */
+    align-items: center;
+}
+
+/* Centraliza o texto nas colunas numéricas (HEADER) */
+.list-header .col-icon,
+.list-header .col-score,
+.list-header .col-year,
+.list-header .col-progress {
+    text-align: center;
+}
+
+/* Centraliza o texto nas colunas numéricas (LINHAS DE JOGOS) */
+.game-row .col-icon,
+.game-row .col-score,
+.game-row .col-year,
+.game-row .col-progress {
+    /* Alinha o texto das colunas para os dados */
+    text-align: center;
+        color: var(--cor-txt-cinza);
+}
+
+.list-header {
+    background-color: var(--cor-header);
+    font-weight: bold;
+    font-size: 0.9em;
+    color: #ffffff;
+    
+}
+
+/* Linha de Jogo (Interativa) */
+.game-row {
+    cursor: pointer;
+    transition: background-color 0.2s;
+    
+}
+
+.game-row:hover {
+    background-color: #37363b;
+}
+/* --- COLUNA ESQUERDA (SIDEBAR) --- */
+
+/* Colunas Específicas */
+.col-icon img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+
+    /* NOVO: Wrapper para a lista e a capa */
+.game-list-wrapper {
+    display: flex; /* Para alinhar a capa e a lista lado a lado */
+    gap: 20px; /* Espaço entre a capa e a lista */
+    max-width: 1200px; /* Aumenta a largura total se necessário */
+    margin: 0 auto; /* Centraliza o wrapper */
+    position: relative; /* Importante para o posicionamento da capa */
+    align-items: flex-start; /* Alinha os itens no topo */
+}
+
+.list-sections-container {
+    flex-grow: 1; /* Ocupa o espaço principal ao lado da capa de preview */
+}
+
+/* Estilo para cada seção de status */
+.status-section {
+    margin-bottom: 40px; /* Espaço entre as diferentes listas de status */
+    padding-left: 5px;
+}
+
+.status-section h2 {
+    font-family: 'Montserrat', sans-serif; /* Usando a fonte que sugerimos antes */
+    color: var(--cor-txt-cinza);
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-left: 20px;
+    
+}
+
+    .hidden {
+    display: none !important;
+    }
+
+    .game-row .col-score,
+    .game-row .col-year,
+    .game-row .col-progress {
+        display: flex; /* Transforma a coluna em flexbox */
+        justify-content: center; /* Centraliza horizontalmente o bloco de destaque */
+        align-items: center; /* Centraliza verticalmente */
+        padding: 5px 0; /* Remove padding lateral desnecessário se estiver atrapalhando */
+    }
+
+    .game-row .col-title {
+            font-family: 'Montserrat', sans-serif; /* Usando a fonte que sugerimos antes */
+        color: white
+    }
+
+    .data-highlight {
+        display: inline-block; /* Permite que o background se ajuste ao conteúdo */
+        padding: 4px 8px; /* Espaçamento interno */
+        font-weight: bold; /* Deixa o texto em negrito */
+        background-color: rgba(0, 0, 0, 0.9); /* Usa a cor de fundo mais clara (como o cabeçalho) */
+        color: var(--text-color);
+        min-width: 40px; /* Garante uma largura mínima para padronização */
+        text-align: center; /* Centraliza o texto dentro do bloco */
+    }
+
+    /* --- ÁREA DOS FILTROS --- */
+    /* --- ÁREA DOS FILTROS --- */
+    /* --- ÁREA DOS FILTROS --- */
+
+    .search-input {
+        width: 100%;
+        padding: 10px 15px;
+        /* ... (mantenha os estilos de cor/borda/foco existentes) ... */
+        margin-bottom: 10px; /* Espaço abaixo da barra de pesquisa */
+    }
+
+    .sidebar-filters {
+        width: 250px; /* Largura fixa para a barra de filtros */
+        flex-shrink: 0; /* Impede que a sidebar diminua */
+        top: 20px; /* Distância do topo ao fixar */
+        
+    }
+
+    .filter-select:focus {
+        outline: none;
+        border-color: var(--accent-color);
+    }
+
+    .filter-select {
+
+        display: block;
+        width: 100%;
+        padding: 10px 15px;
+        margin-top: 15px; /* Espaço entre o botão 100% e o select */
+        font-size: 16px;
+        cursor: pointer;
+        appearance: none; /* Remove o estilo padrão do SO */
+        align-items: center;
+        text-decoration: none;
+        border: none;
+
+
+        
+        /* CRUCIAIS PARA O DARK MODE E PARA TIRAR O ESTILO PADRÃO: */
+        color: var(--cor-txt-cinza); /* Texto branco */
+        appearance: none; /* Remove a seta padrão do navegador */
+        
+        background-color: var(--cor-header);
+        height: 40px;
+}
+
+    .filter-area {
+    max-width: 1200px;
+    margin: 0 auto 30px auto;
+    padding: 10px; /* Padding interno da sidebar */
+    margin: 0;
+    padding: 12px;
+    color: var(--text-color);
+    overflow: hidden;
+    backdrop-filter: blur(6px); /* desfoca o fundo por trás (opcional) */
+    -webkit-backdrop-filter: blur(6px);
+        
+    }
+
+    .search-box-fa {
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    background: var(--cor-header);
+    width: 100%;
+    max-width: 196px;
+    height: 40px;
+    margin-bottom: 15px; /* Ajuste o valor conforme necessário */
+    }
+
+    .search-box-fa i {
+    color: rgba(255, 255, 255, 0.7); /* Branco com 70% de opacidade */
+    font-size: 16px;
+    margin-right: 10px;
+    flex-shrink: 0;
+    }
+
+    .search-box-fa input {
+    border: none;
+    margin-left: -2px;
+    margin-top: 9px;
+    font-size: 16px;
+    outline: none;
+    background: transparent;
+    height: 100%; /* Ocupa 100% da altura do container */
+    color: white;
+    }
+
+    .search-box-fa input::placeholder {
+    color: rgba(255, 255, 255, 0.7); /* Branco com 70% de opacidade */
+    opacity: 1; /* Importante para alguns navegadores */
+    }
+
+    /* --- CAPA DOS JOGOS --- */
+    /* --- CAPA DOS JOGOS --- */
+    /* --- CAPA DOS JOGOS --- */
+
+    .game-cover-preview {
+        /* REMOVA: position: fixed; left: 20px; top: 50%; transform: translateY(-50%); */
+        position: absolute; /* Agora é absoluto em relação ao game-list-wrapper */
+        left: -280px; /* Posição à esquerda, 20px de margem + 200px de largura da capa */
+        width: 180px; /* Largura da capa */
+        height: 250px; /* Altura da capa */
+        background-color: var(--list-bg-color);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+        overflow: hidden;
+        opacity: 0;
+        visibility: hidden;
+        z-index: 100;
+        pointer-events: none;
+        border: 1px solid black;
+        transition: opacity 0.15s ease, transform 0.15s ease;
+        transform: translateY(0); /* Mantém centralização vertical */
+    }
+
+    .game-cover-preview img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    .game-cover-preview.show {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    /* --- ÁREA DA REVIEW --- */
+    /* --- ÁREA DA REVIEW --- */
+    /* --- ÁREA DA REVIEW --- */
+
+    .review-content.show { /* ISSO AQUI É O QUE PERMITE A EXPANÇÃO */
+    display: block;
+    }
+
+    .review-text {
+        text-align: justify; /* justifica o texto */
+        background: var(--cor-fundo); /* fundo escuro e translúcido */
+        padding: 14px 16px;
+        line-height: 1.5;
+        margin-bottom: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.05);
+        color: var(--cor-txt-cinza);
+    }
+
+    .review-info {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        padding-top: 10px;
+        font-size: 0.9rem;
+    }
+
+    .review-info p {
+        margin: 0;
+        background: var(--cor-fundo);
+        padding: 6px 10px;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+
+    .review-info i {
+        color: rgb(255, 255, 255);
+        width: 18px;
+        text-align: center;
+    }
+
+    .review-content {
+        display: none;
+        grid-column: 1 / -1;
+        padding: 2px 15px 20px;
+        background-color:#37363b; 
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);   
+    }
+
+    .review-text,
+    .review-info,
+    .review-info p {
+        font-family: 'Montserrat', sans-serif;
+        color: var(--cor-txt-cinza);
+    }
+
+
+    /* Sidebar normal (desktop) */
+
+/* Mobile */
+@media (max-width: 968px) {
+    .sidebar-filters {
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 100vh;
+        background: #111;
+        z-index: 1000;
+
+        transform: translateX(-100%);
+    }
+
+    .sidebar-filters.open {
+        transform: translateX(0);
+    }
+}
+.bg-video {
+    position: fixed;
+    top: 50%;
+    left: 49%;
+
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+
+    transform:
+        translate(-50%, -50%)
+        scale(1.1)
+        translateX(80px);
+
+    z-index: -1;
+    opacity: 0.75;
+}
+
+    /* #3 PÁGINA DE ESTATÍSTICAS */
+    /* #3 PÁGINA DE ESTATÍSTICAS */
+    /* #3 PÁGINA DE ESTATÍSTICAS */
+
+.bloco-est{
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --- SISTEMA DE CORES (Modo Noturno) --- */
+        
+        /* Playlist (Jogando Atualmente) - Azul Ciano */
+        .border-playlist { 
+            border-color: #29B6F6; 
+            box-shadow: 0 0 5px rgba(41, 182, 246, 0.2); /* Leve brilho azul */
+        }
+
+        /* Jogado (Zerado) - Verde Suave */
+        .border-jogado { 
+            border-color: #66BB6A; 
+        }
+
+        /* Dropado (Desistiu) - Vermelho Coral */
+        .border-dropado { 
+            border-color: #EF5350; 
+            opacity: 0.8; /* Levemente mais apagado que os outros */
+        }
+
+        /* Backlog (Na fila) - Roxo */
+        .border-backlog { 
+            border-color: #AB47BC; 
+        }
+
+        /* Genérico (Sem categoria definida) - Cinza Azulado */
+        .border-generico { 
+            border-color: #78909C; 
+        }
+
+        /* PLATINA (100%) - Prata Brilhante */
+        /* Essa regra sobrepõe as outras se o jogo tiver 100% */
+        .border-platinum {
+            border-color: #e5e4e2;
+            /* Um brilho mais intenso e animado */
+            box-shadow: 0 0 8px #e5e4e2, inset 0 0 10px rgba(255,255,255,0.1); 
+            animation: shine 3s infinite alternate;
+        }
+
+        @keyframes shine {
+            from { box-shadow: 0 0 2px #e5e4e2; border-color: #9e9e9e; }
+            to { box-shadow: 0 0 12px #ffffff; border-color: #ffffff; }
+        }
+
+
+
+        /* 2. LAYOUT PRINCIPAL */
+.container {
+            /* Antes estava min-height: 100vh. ISSO QUE CAUSAVA O SCROLL. */
+            
+            /* Opção A: Altura automática (só ocupa o espaço dos cards) */
+            height: auto; 
+            
+            /* OU Opção B: Ocupa exatamente o que sobra da tela (mais elegante) */
+            height: calc(100vh - 138px); /* 100% da tela MENOS o tamanho do Header aprox */
+            
+            /* Mantém o resto */
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: 250px 1fr;
+            gap: 40px;
+        }
+
+        /* 3. SIDEBAR */
+        .sidebar { display: flex; flex-direction: column; gap: 15px; position: sticky; top: 20px; height: fit-content; }
+        .btn-link { background-color: #2a2a2a; color: white; padding: 15px; text-decoration: none; text-align: center; border-radius: 8px; transition: 0.3s; border: 1px solid #444; }
+        .btn-link:hover { background-color: #3a3a3a; transform: translateX(5px); }
+        .sidebar h2, .feed-header {color: white; text-align: center;}
+
+        /* 4. FEED */
+        /* 4. FEED HEADER (Ajustado) */
+        .feed-header {
+            margin-bottom: 34px;    /* Espaço entre o título e os cards (pode diminuir se quiser mais colado) */
+            padding-bottom: 0;      /* Remove o espaço interno extra */
+        }
+        
+        /* Opcional: Se quiser remover a margem padrão do próprio texto H2 */
+        .feed-header h2 {
+            margin-bottom: 0;
+            
+        }
+
+        /* --- AQUI ESTÁ A MUDANÇA PARA 2 COLUNAS --- */
+        .cards-grid { 
+            display: grid; 
+            grid-template-columns: 1fr 1fr; /* Cria 2 colunas de tamanho igual */
+            gap: 20px; 
+        }
+
+        /* RESPONSIVIDADE: Ajustes para telas menores */
+        @media (max-width: 900px) {
+            /* Se a tela for menor que 900px, volta para 1 coluna nos cards */
+            .cards-grid { grid-template-columns: 1fr; }
+        }
+
+        @media (max-width: 768px) {
+            /* Se for celular, remove a coluna lateral do menu e deixa tudo empilhado */
+            .container { grid-template-columns: 1fr; }
+        }
+
+        /* --- ESTILO DO CARD (HORIZONTAL) --- */
+        .game-card {
+            background-color: #1e1e1e;
+            border-radius: 10px;
+            overflow: hidden;
+            position: relative;
+            transition: transform 0.2s;
+            border: 2px solid transparent;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+            
+            display: flex;       /* Lado a lado */
+            height: 130px;       /* Reduzi levemente a altura pra ficar mais compacto */
+            align-items: center; 
+        }
+
+        .game-card:hover { transform: translateY(-3px); }
+
+        .game-card img {
+            width: 100px;        /* Reduzi um pouco a largura da imagem */
+            height: 100%;        
+            object-fit: cover;   
+            flex-shrink: 0;      
+        }
+
+        .card-info {
+            padding: 10px 15px; /* Ajustei o espaçamento interno */
+            flex: 1;             
+            display: flex;
+            flex-direction: column; 
+            justify-content: center;
+            overflow: hidden; 
+            color: wheat;
+        }
+
+        .card-title { font-size: 1em; font-weight: bold;  margin-bottom: 5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .card-status { font-size: 0.75em; text-transform: uppercase; letter-spacing: 1px; opacity: 0.8; margin-bottom: 4px; }
+        .card-info small { font-size: 0.8em; opacity: 0.6; }
+
+        /* CORES */
+
+        @keyframes shine { from { box-shadow: 0 0 5px #e5e4e2; } to { box-shadow: 0 0 15px #ffffff; } }
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /* Grid da Galeria */
+.gallery-grid {
+    display: grid;
+    /* Cria colunas responsivas automaticamente */
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+/* O Cartão do Jogo */
+.gamef-card {
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    position: relative;
+}
+
+.gamef-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+}
+
+/* Imagem (Capa) */
+.gamef-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover; /* Garante que a imagem preencha sem distorcer */
+    display: block;
+}
+
+/* Rank (Número do Top 10) */
+.rank-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #bb86fc;
+    color: #000;
+    font-weight: bold;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+
+/* Título do Jogo */
+.gamef-info {
+    padding: 10px;
+    text-align: center;
+}
+
+.gamef-title {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+/* ATUALIZADO: Grid da Galeria */
+.gallery-grid {
+    display: grid;
+    /* O SEGREDO ESTÁ AQUI: 
+       Cria exatamente 5 colunas de frações iguais (1fr).
+       Se tiver 6 itens, ele joga pra linha de baixo. */
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 20px; /* Espaço entre os jogos */
+}
+@media (max-width: 768px) {
+    .gallery-grid {
+        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    }
+}

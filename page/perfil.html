@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Game Hub | Links</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+:root{
+   /* CORES PRINCIPAIS */ 
+   --cor-cinza-escuro: #333536;
+   --cor-cinza-claro: #b0b8bf;
+   --cor-principal: #22b9cf;
+   --cor-secundária: #1c82a8;
+   --cor-destaque: 	#a50f5e
+}
+
+body {
+  min-height: 200vh;
+
+  background-color: var(--cor-cinza-escuro);
+
+}
+
+/* #2 HEADER *//* #2 HEADER *//* #2 HEADER */
+/* #2 HEADER *//* #2 HEADER *//* #2 HEADER */
+/* #2 HEADER *//* #2 HEADER *//* #2 HEADER */
+
+.header {
+
+    font-family: 'Montserrat', sans-serif; /* Usando a fonte que sugerimos antes */
+    display: flex; /* Ativa os superpoderes de alinhamento */
+    justify-content: space-between; /* Empurra um pra esquerda, outro pra direita */
+    align-items: center; /* Garante que fiquem alinhados na altura (meio vertical) */
+    
+    padding: 10px 20%; /* Espaço interno: 20px em cima/baixo, 40px nos lados */
+    background-color: var(--cor-secundária); /* Fundo preto ou transparente */
+    margin: 10px;
+    margin-left: 10% ;
+    margin-right: 10%;
+    z-index: 50;
+    box-sizing: border-box;
+    border-color: var(--cor-cinza-escuro);
+    border-radius: 40px;    
+}
+
+/* 2. O LOGO */
+.logo img {
+    height: 50px; /* Define a altura, a largura ajusta automático */
+    display: block; /* Remove espaços extras */
+    border-radius: 10px;
+}
+
+/* 3. O MENU (A lista de links) */
+.menu ul {
+    display: flex; /* Coloca os itens da lista um ao lado do outro */
+    gap: 30px;     /* Espaço entre cada link */
+    list-style: none; /* Remove as bolinhas da lista */
+    margin: 0;
+    padding: 0;
+}
+
+/* 4. OS LINKS (O texto clicável) */
+.menu a {
+    text-decoration: none; /* Remove o sublinhado azul feio */
+    color: white;           /* Cor do texto */
+    font-size: 1rem;
+    font-weight: 700;
+    transition: 0.3s;      /* Suaviza a mudança de cor */
+}
+
+/* Efeito quando passa o mouse */
+.menu a:hover {
+    color: var(--cor-cinza-escuro); /* Fica cinza claro */
+}
+
+    /* --- ORGANIZAÇÃO BÁSICA --- */
+    /* --- ORGANIZAÇÃO BÁSICA --- */
+    /* --- ORGANIZAÇÃO BÁSICA --- */
+
+    .main-content-wrapper {
+        max-width: 1200px; /* Largura máxima do seu conteúdo */
+        margin: 30px auto;
+        padding: 0 20px;
+        display: flex; /* Habilita layout em coluna */
+        gap: 30px; /* Espaço entre a sidebar e a lista */
+        align-items: flex-start; /* Garante que tudo comece no topo */   
+    }
+
+/* ACABOU A HEADER */
+/* ACABOU A HEADER */
+/* ACABOU A HEADER */
+
+        .container {
+            width: 90%;
+            max-width: 450px;
+            padding: 50px 0;
+            text-align: center;
+            margin: 50px auto;
+        }
+
+        /* Animação de Entrada Principal */
+        .animate-in {
+            animation: fadeInBlur 1s ease-out forwards;
+        }
+
+        @keyframes fadeInBlur {
+            from { opacity: 0; transform: translateY(20px); filter: blur(10px); }
+            to { opacity: 1; transform: translateY(0); filter: blur(0); }
+        }
+
+        .main-profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 4px solid var(--primary-color);
+            box-shadow: 0 0 20px rgba(0, 212, 255, 0.4);
+            margin-bottom: 20px;
+            object-fit: cover;
+        }
+
+        h1 {
+            font-size: 1.8rem;
+            font-weight: 800;
+            margin-bottom: 5px;
+            letter-spacing: -1px;
+        }
+
+        .description {
+            font-size: 1rem;
+            color: #aaa;
+            margin-bottom: 40px;
+        }
+
+        /* Grid de Links */
+        .links-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .link-card {
+            background: var(--card-bg);
+            border: 2px solid rgba(255, 255, 255, 0.05);
+            padding: 12px 20px;
+            text-decoration: none;
+            color: white;
+            border-radius: 16px;
+            background-color: var(--cor-secundária);
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            position: relative;
+            overflow: hidden;
+            /* Animação individual escalonada */
+            animation: slideIn 0.5s ease-out backwards;
+        }
+
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateX(-30px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+
+        
+
+        /* Atraso para cada botão aparecer um após o outro */
+        .link-card:nth-child(1) { animation-delay: 0.2s; }
+        .link-card:nth-child(2) { animation-delay: 0.3s; }
+        .link-card:nth-child(3) { animation-delay: 0.4s; }
+        .link-card:nth-child(4) { animation-delay: 0.5s; }
+        .link-card:nth-child(5) { animation-delay: 0.6s; }
+        .link-card:nth-child(6) { animation-delay: 0.7s; }
+        .link-card:nth-child(7) { animation-delay: 0.8s; }
+
+        /* Foto de Perfil dentro da Caixa */
+        .mini-profile {
+            width: 75px;
+            height: 75px;
+            border-radius: 12px;
+            object-fit: cover;
+            background: #333;
+        }
+
+        .link-text {
+            text-align: left;
+        }
+
+        .link-text span {
+            display: block;
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+
+        .link-text small {
+            font-size: 0.8rem;
+            color: var(--cor-cinza-claro);
+        }
+
+    </style>
+</head>
+<body>
+
+
+    <header class="header">
+
+        <div class="logo">
+            <img src="/kissutina/midia/MAXMIKU.png" alt="Logo Raí">
+        </div>
+
+        <nav class="menu">
+            <ul>
+                <li><a href="/kissutina/index.html">Home</a></li>
+                <li><a href="/kissutina/page/lista.html">Lista de Jogos</a></li>
+                <li><a href="/kissutina/page/estatisticas.html">Estatísticas</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <div class="container animate-in">
+        
+        <div class="links-container">
+            
+            <a href="https://steamcommunity.com/id/raigomes/" target="_blank" class="link-card">
+                <img src="https://avatars.fastly.steamstatic.com/e700c5c9aa8ef6ac5bf9b746dc29d20b5499da36_full.jpg" class="mini-profile" alt="Steam">
+                <div class="link-text">
+                    <span>Steam</span>
+                    <small></small>
+                </div>
+            </a>
+
+            <a href="https://www.youtube.com/@HighGomes" target="_blank" class="link-card">
+                <img src="https://yt3.googleusercontent.com/O43N4sLZBtpWSr4OTjt7XKqj35GdVkYyo0YzujYHmhM-7IDuMmO6W64zlo3Xn4L5hCNyV9Ojyg=s160-c-k-c0x00ffffff-no-rj" class="mini-profile" alt="Steam">
+                <div class="link-text">
+                    <span>Youtube</span>
+                    <small>De vez em nunca posto algo</small>
+                </div>
+            </a>
+
+            <a href="https://anilist.co/user/Kissutina/" target="_blank" class="link-card">
+                <img src="https://s4.anilist.co/file/anilistcdn/user/avatar/large/b583761-CbmRqZTG2U9I.png" class="mini-profile" alt="Steam">
+                <div class="link-text">
+                    <span>Anilist</span>
+                    <small>Desenhos Orientais Estranhos</small>
+                </div>
+            </a>
+
+            <a href="https://retroachievements.org/user/HIGomes" target="_blank" class="link-card">
+                <img src="https://media.retroachievements.org/UserPic/HIGomes.png" class="mini-profile" alt="Steam">
+                <div class="link-text">
+                    <span>RetroAchievements</span>
+                    <small>Tracking de alguns retro-games</small>
+                </div>
+            </a>
+
+
+
+                    <a href="https://letterboxd.com/Kissutina/" target="_blank" class="link-card">
+                <img src="https://a.ltrbxd.com/resized/avatar/upload/1/5/8/2/0/1/8/7/shard/avtr-0-1000-0-1000-crop.jpg?v=2739e0bddf" class="mini-profile" alt="Steam">
+                <div class="link-text">
+                    <span>Letterboxd</span>
+                    <small>Não tenho paciência pra ver filme</small>
+                </div>
+            </a>
+
+                        <a href="https://x.com/Kissutina" target="_blank" class="link-card">
+                <img src="https://pbs.twimg.com/profile_images/1998230680354828288/VGwnw-nx_400x400.jpg" class="mini-profile" alt="Steam">
+                <div class="link-text">
+                    <span>Twitter</span>
+                    <small></small>
+                </div>
+            </a>
+        
+
+        </div>
+
+    </div>
+
+</body>
+</html>

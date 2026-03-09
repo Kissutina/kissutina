@@ -1,0 +1,164 @@
+:root{
+   /* CORES PRINCIPAIS */ 
+   --cor-cinza-escuro: #333536;
+   --cor-cinza-claro: #b0b8bf;
+   --cor-principal: #22b9cf;
+   --cor-secundária: #1c82a8;
+   --cor-destaque: 	#a50f5e
+}
+
+body {
+  min-height: 200vh;
+
+  background-color: var(--cor-cinza-escuro);
+
+}
+
+/* #2 HEADER *//* #2 HEADER *//* #2 HEADER */
+/* #2 HEADER *//* #2 HEADER *//* #2 HEADER */
+/* #2 HEADER *//* #2 HEADER *//* #2 HEADER */
+
+.header {
+
+    font-family: 'Montserrat', sans-serif; /* Usando a fonte que sugerimos antes */
+    display: flex; /* Ativa os superpoderes de alinhamento */
+    justify-content: space-between; /* Empurra um pra esquerda, outro pra direita */
+    align-items: center; /* Garante que fiquem alinhados na altura (meio vertical) */
+    
+    padding: 10px 20%; /* Espaço interno: 20px em cima/baixo, 40px nos lados */
+    background-color: var(--cor-secundária); /* Fundo preto ou transparente */
+    margin: 10px;
+    margin-left: 10% ;
+    margin-right: 10%;
+    z-index: 50;
+    box-sizing: border-box;
+    border-color: var(--cor-cinza-escuro);
+    border-radius: 40px;    
+}
+
+/* 2. O LOGO */
+.logo img {
+    height: 50px; /* Define a altura, a largura ajusta automático */
+    display: block; /* Remove espaços extras */
+    border-radius: 10px;
+}
+
+/* 3. O MENU (A lista de links) */
+.menu ul {
+    display: flex; /* Coloca os itens da lista um ao lado do outro */
+    gap: 30px;     /* Espaço entre cada link */
+    list-style: none; /* Remove as bolinhas da lista */
+    margin: 0;
+    padding: 0;
+}
+
+/* 4. OS LINKS (O texto clicável) */
+.menu a {
+    text-decoration: none; /* Remove o sublinhado azul feio */
+    color: white;           /* Cor do texto */
+    font-size: 1rem;
+    font-weight: 700;
+    transition: 0.3s;      /* Suaviza a mudança de cor */
+}
+
+/* Efeito quando passa o mouse */
+.menu a:hover {
+    color: var(--cor-cinza-escuro); /* Fica cinza claro */
+}
+
+    /* --- ORGANIZAÇÃO BÁSICA --- */
+    /* --- ORGANIZAÇÃO BÁSICA --- */
+    /* --- ORGANIZAÇÃO BÁSICA --- */
+
+    .main-content-wrapper {
+        max-width: 1200px; /* Largura máxima do seu conteúdo */
+        margin: 30px auto;
+        padding: 0 20px;
+        display: flex; /* Habilita layout em coluna */
+        gap: 30px; /* Espaço entre a sidebar e a lista */
+        align-items: flex-start; /* Garante que tudo comece no topo */   
+    }
+
+/* ACABOU A HEADER */
+/* ACABOU A HEADER */
+/* ACABOU A HEADER */
+
+.parallax-bg {
+    /* O SEGREDO: Fixed prende na tela, não na página */
+    position: fixed; 
+    top: 0;
+    left: 0;
+    
+    /* Ocupa a tela toda para podermos centralizar a imagem dentro dele */
+    width: 100vw;
+    height: 100vh;
+    
+    /* Centraliza a imagem perfeitamente no meio da tela */
+    display: flex;
+    justify-content: center; /* Alinha horizontalmente */
+    align-items: center;     /* Alinha verticalmente */
+    
+    pointer-events: none;    /* Deixa clicar através da imagem */
+    z-index: -1;             /* Garante que fique acima (ou use -1 para trás) */
+}
+
+.parallax-bg img {
+    width: 520px;
+    max-width: 80vw;
+    
+    /* Removemos margens e positions antigos pois o Flexbox do pai já resolve */
+    display: block;
+
+    /* Sua animação continua aqui */
+    animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+    /* Ajustei levemente para ela flutuar EM TORNO do centro, 
+       mantendo seus scales originais */
+    0%   { transform: translate(750px, 240px)   scale(1); }
+    50%  { transform: translate(750px, 260px)  scale(1); }
+    100% { transform: translate(750px, 240px)   scale(1); }
+}
+
+.floating-bg {
+    position: relative;
+    height: 0;
+    pointer-events: none;
+}
+
+.floating-bg img {
+    position: sticky;
+    top: 60vh; /* onde ela “para” ao subir */
+    transform: translateY(200px); /* empurra pra baixo no começo */
+
+    width: 600px; /* ajusta */
+    max-width: 80vw;
+
+    opacity: 0.35;
+    filter: blur(1px);
+
+    z-index: -1;
+}
+
+
+
+
+    /* #3 PÁGINA DE ESTATÍSTICAS */
+    /* #3 PÁGINA DE ESTATÍSTICAS */
+    /* #3 PÁGINA DE ESTATÍSTICAS */
+
+.bloco-est{
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+

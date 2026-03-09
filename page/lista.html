@@ -1,0 +1,280 @@
+<html lang="pt-BR">
+
+    <head>
+
+        <title>Kissutina - Lista de Jogos</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/kissutina/style/stylelista.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=BBH+Bogle&family=BBH+Hegarty&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+
+    </head>
+
+
+
+    <header class="header">
+
+        <div class="logo">
+            <img src="/kissutina/midia/MAXMIKU.png" alt="Logo Raí">
+        </div>
+
+        <nav class="menu">
+            <ul>
+                <li><a href="/kissutina/index.html">Home</a></li>
+                <li><a href="/kissutina/page/lista.html">Lista de Jogos</a></li>
+                <li><a href="/kissutina/page/estatisticas.html">Estatísticas</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <div class="parallax-bg">
+        <img src="/kissutina/midia/miku.webp" alt="">
+    </div>
+
+    <div id="main-content-wrapper" class="main-content-wrapper">
+
+    <aside id="sidebar-filters" class="sidebar-filters">
+
+        <div class="filter-area">
+
+            <div class="search-box-fa">
+                <i class="fas fa-search"></i>
+                <input type="text" id="search-input" placeholder="Jogo" class="search-input">
+            </div>
+
+            <div class="search-box-fa">
+                <i class="fas fa-search"></i>
+                <input type="text" id="genre-search-input" placeholder="Gênero" class="search-input filter-select">
+            </div>
+
+            <div class="search-box-fa">
+                <i class="fas fa-search"></i>
+                <input type="text" id="release-year-input" placeholder="Lançamento" class="search-input filter-select">
+            </div>
+
+            <select id="platform-filter-select" class="filter-select">
+                <option value="Tudo">Plataformas:</option>
+                <option value="Steam">Steam</option>
+                <option value="Epic">Epic Games</option>
+                <option value="PS2">PS2</option>
+                <option value="GOG">GOG</option>
+            </select>
+
+            <select id="min-score-filter-select" class="filter-select">
+                <option value="0">Notas:</option>
+                <option value="10">10</option>
+                <option value="9">9</option>
+                <option value="8">8</option>
+                <option value="7">7</option>
+                <option value="6">6</option>
+                <option value="5">5</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1</option>
+            </select>
+
+            <select id="played-year-filter-select" class="filter-select">
+                <option value="Tudo">Ano Zerado:</option>
+                <option value="2000">2000</option>
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+                <option value="2024">2024</option>                                                                        
+                <option value="2025">2025</option>
+                <option value="2026">2026</option>
+            </select>
+
+            <select id="sort-filter-select" class="filter-select">
+                <option value="" disabled selected>Ordenação:</option>
+                <option value="titulo">Alfabética</option>
+                <option value="ano_lancamento">Cronológica</option>
+                <option value="tempo_jogo_horas">Tempo de jogo</option>
+                <option value="conquistas_percentual">Progresso</option>
+                <option value="score">Nota</option>
+            </select>
+
+        </div>
+
+    </aside>
+
+
+    
+    <main id="list-main-area" class="list-main-area">
+            
+        <section class="game-list-wrapper">
+
+            <div id="game-cover-preview" class="game-cover-preview">
+                <img src="" alt="Capa do Jogo" id="preview-image">
+            </div>
+
+            <div class="list-sections-container">
+                    
+                <div id="section-jogando" class="status-section">
+                    <h2>Jogando</h2>
+                        <div class="game-list-container">
+                            <div class="list-header">
+                                <div class="col-icon">#</div>
+                                <div class="col-title">Título</div>
+                                <div class="col-score">Nota</div>
+                                <div class="col-year">Ano</div>
+                                <div class="col-progress">Progresso</div>
+                            </div>
+                            <div id="games-jogando" class="games-body"></div>
+                        </div>
+                    </div>
+
+                    <div id="section-zerados" class="status-section">
+                        <h2>Completos</h2>
+                        <div class="game-list-container">
+                            <div class="list-header">
+                                <div class="col-icon">#</div>
+                                <div class="col-title">Título</div>
+                                <div class="col-score">Nota</div>
+                                <div class="col-year">Ano</div>
+                                <div class="col-progress">Progresso</div>
+                            </div>
+                            <div id="games-zerados" class="games-body"></div>
+                        </div>
+                    </div>
+
+                                        <div id="section-semfim" class="status-section">
+                        <h2>Sem Fim</h2>
+                        <div class="game-list-container">
+                            <div class="list-header">
+                                <div class="col-icon">#</div>
+                                <div class="col-title">Título</div>
+                                <div class="col-score">Nota</div>
+                                <div class="col-year">Ano</div>
+                                <div class="col-progress">Progresso</div>
+                            </div>
+                            <div id="games-semfim" class="games-body"></div>
+                        </div>
+                    </div>
+
+                                                            <div id="section-dlc" class="status-section">
+                        <h2>DLCs</h2>
+                        <div class="game-list-container">
+                            <div class="list-header">
+                                <div class="col-icon">#</div>
+                                <div class="col-title">Título</div>
+                                <div class="col-score">Nota</div>
+                                <div class="col-year">Ano</div>
+                                <div class="col-progress">Progresso</div>
+                            </div>
+                            <div id="games-dlc" class="games-body"></div>
+                        </div>
+                    </div>
+
+                    <div id="section-ports" class="status-section">
+                        <h2>Outros Ports</h2>
+                        <div class="game-list-container">
+                            <div class="list-header">
+                                <div class="col-icon">#</div>
+                                <div class="col-title">Título</div>
+                                <div class="col-score">Nota</div>
+                                <div class="col-year">Ano</div>
+                                <div class="col-progress">Progresso</div>
+                            </div>
+                            <div id="games-ports" class="games-body"></div>
+                        </div>
+                    </div>
+
+                                        <div id="section-col" class="status-section">
+                        <h2>Coleções</h2>
+                        <div class="game-list-container">
+                            <div class="list-header">
+                                <div class="col-icon">#</div>
+                                <div class="col-title">Título</div>
+                                <div class="col-score">Nota</div>
+                                <div class="col-year">Ano</div>
+                                <div class="col-progress">Progresso</div>
+                            </div>
+                            <div id="games-col" class="games-body"></div>
+                        </div>
+                    </div>
+
+                    <div id="section-outros" class="status-section">
+                        <h2>Outros</h2>
+                        <div class="game-list-container">
+                            <div class="list-header">
+                                <div class="col-icon">#</div>
+                                <div class="col-title">Título</div>
+                                <div class="col-score">Nota</div>
+                                <div class="col-year">Ano</div>
+                                <div class="col-progress">Progresso</div>
+                            </div>
+                            <div id="games-outros" class="games-body"></div>
+                        </div>
+                    </div>
+                    
+
+                    <div id="section-pausado" class="status-section">
+                        <h2>Pausado</h2>
+                        <div class="game-list-container">
+                            <div class="list-header">
+                                <div class="col-icon">#</div>
+                                <div class="col-title">Título</div>
+                                <div class="col-score">Nota</div>
+                                <div class="col-year">Ano</div>
+                                <div class="col-progress">Progresso</div>
+                            </div>
+                            <div id="games-pausado" class="games-body"></div>
+                        </div>
+                    </div>
+
+                    <div id="section-dropados" class="status-section">
+                        <h2>Dropados</h2>
+                        <div class="game-list-container">
+                            <div class="list-header">
+                                <div class="col-icon">#</div>
+                                <div class="col-title">Título</div>
+                                <div class="col-score">Nota</div>
+                                <div class="col-year">Ano</div>
+                                <div class="col-progress">Progresso</div>
+                            </div>
+                            <div id="games-dropados" class="games-body"></div>
+                        </div>
+                    </div>
+
+                    <div id="section-backlog" class="status-section">
+                        <h2>Backlog</h2>
+                        <div class="game-list-container">
+                            <div class="list-header">
+                                <div class="col-icon">#</div>
+                                <div class="col-title">Título</div>
+                                <div class="col-score">Nota</div>
+                                <div class="col-year">Ano</div>
+                                <div class="col-progress">Progresso</div>
+                            </div>
+                            <div id="games-backlog" class="games-body"></div>
+                        </div>
+                    </div>
+
+                    <div id="section-playlist" class="status-section">
+                        <h2>Playlist</h2>
+                        <div class="game-list-container">
+                            <div class="list-header">
+                                <div class="col-icon">#</div>
+                                <div class="col-title">Título</div>
+                                <div class="col-score">Nota</div>
+                                <div class="col-year">Ano</div>
+                                <div class="col-progress">Progresso</div>
+                            </div>
+                            <div id="games-playlist" class="games-body"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="/kissutina/app/applista.js"></script>
+
+</html>

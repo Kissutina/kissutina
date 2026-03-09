@@ -1,287 +1,54 @@
-<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meus Jogos Zerados | Vibing Code</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Site de Testes</title>
+    <link rel="stylesheet" href="/kissutina/style/stylehome.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=BBH+Bogle&family=BBH+Hegarty&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<header class="site-header" id="site-header">
-  <div class="header-inner">
-    <div class="profile">
-      <!-- troque o src pela sua imagem real se quiser -->
-      <img src="https://shared.fastly.steamstatic.com/community_assets/images/items/2055050/03e6938ae269d5fb3c83f6c56e1469b36171ad44.gif" alt="Foto de perfil de Raí Gomes" class="profile-img" id="profile-img">
-      <div class="profile-text">
-        <h1 class="profile-name">Raí Gomes</h1>
-        <p class="profile-sub">Lista de jogos</p>
-      </div>
+    <div class="container-home">
+        <img src="/fotos/Hatsune_Miku.webp" alt="Imagem exemplo" class="imagem-centro">
+
+        <div class="texto-home">
+                <p>Projeto</p>
+                <h1>KISSUTINA</h1>
+                <p>um trabalho pessoal por Raí Gomes</p>
+        </div>
     </div>
 
-<nav class="main-nav" aria-label="Navegação principal">
-  <a href="/" class="nav-link" data-target="home"><i class="fas fa-home"></i><span>Home</span></a>
-  <a href="/favoritos" class="nav-link" data-target="favoritos"><i class="fas fa-heart"></i><span>Favoritos</span></a>
-  <a href="/recomendacoes" class="nav-link" data-target="recomendacoes"><i class="fas fa-thumbs-up"></i><span>Recomendações</span></a>
-  <a href="/anime-manga" class="nav-link" data-target="anime"><i class="fas fa-dragon"></i><span>Anime &amp; Mangá</span></a>
-  <a href="/desenhos-youtube" class="nav-link" data-target="desenhos"><i class="fab fa-youtube"></i><span>Desenhos &amp; YouTube</span></a>
-  <a href="/estatisticas" class="nav-link" data-target="estatisticas"><i class="fas fa-chart-bar"></i></i><span>Estatísticas</span></a>
-  <a href="/links" class="nav-link" data-target="links"><i class="fas fa-link"></i><span>Links Úteis</span></a>
-</nav>
-
-    </nav>
-  </div>
-</header>
-
-
-
-    <div id="main-content-wrapper" class="main-content-wrapper">
-        
-        <aside id="sidebar-filters" class="sidebar-filters">
-            <div class="filter-area">
-                <input type="text" id="search-input" placeholder="🔍 Pesquisar jogos" class="search-input">
-                
-                <button id="toggle-100-percent" class="filter-toggle" data-active="false">
-            Mostrar Somente 100%
-        </button>
-
-            <select id="status-filter-select" class="filter-select">
-                <option value="Tudo">Todas as Listas</option>
-                <option value="Jogando">Jogando</option>
-                <option value="Zerado">Completos (Zerado/Platinado)</option>
-                <option value="Sem Fim">Sem Fim</option>
-                <option value="DLC">DLCs</option>
-                                <option value="Ports">Ports</option>
-                                                <option value="col">Coleções</option>
-                <option value="Pausado">Pausados</option>
-                <option value="Dropado">Dropados</option>
-                <option value="Backlog">Backlog</option>
-                <option value="Playlist">Playlist</option>
-            </select>
-
-            <select id="sort-filter-select" class="filter-select">
-    <option value="titulo_asc">Ordenar por: Título (A-Z)</option>
-    <option value="titulo_desc">Título (Z-A)</option>
-    <option value="nota_pessoal_desc">Nota (Maior)</option>
-    <option value="nota_pessoal_asc">Nota (Menor)</option>
-    <option value="ano_lancamento_desc">Ano Lançamento (Novo)</option>
-    <option value="ano_lancamento_asc">Ano Lançamento (Antigo)</option>
-    <option value="data_zerado_desc">Data Zerado (Recente)</option>
-    <option value="data_zerado_asc">Data Zerado (Antigo)</option>
-</select>
-
-<select id="platform-filter-select" class="filter-select">
-    <option value="Tudo">Todas as Plataformas</option>
-        <option value="Steam">Steam</option>
-        <option value="Epic">Epic Games</option>
-        <option value="PS2">PS2</option>
-    </select>
-
-<select id="min-score-filter-select" class="filter-select">
-    <option value="0">Nota Mínima (Todas)</option>
-    <option value="10">10</option>
-    <option value="9">9</option>
-    <option value="8">8</option>
-    <option value="7">7</option>
-    <option value="6">6</option>
-    <option value="5">5</option>
-        <option value="4">4</option>
-    <option value="3">3</option>
-    <option value="2">2</option>
-    <option value="1">1</option>
-
-</select>
-
-<select id="played-year-filter-select" class="filter-select">
-    <option value="Tudo">Ano Zerado (Todos)</option>
-        <option value="2000">2000</option>
-                <option value="2020">2020</option>
-                        <option value="2021">2021</option>
-                                <option value="2022">2022</option>
-                                        <option value="2023">2023</option>
-                                                <option value="2024">2024</option>
-                                                        <option value="2025">2025</option>
-    </select>
-
-<input type="text" id="genre-search-input" placeholder="🔍 Buscar por Gênero..." class="search-input filter-select">
-
-<input type="text" id="release-year-input" placeholder="🔍 Ano Lançamento (Exato)" class="search-input filter-select">
-                </div>
-
-                <!-- CARD DE LINKS RÁPIDOS (Steam / RetroArch) -->
-<div class="quick-links-card" role="region" aria-label="Links rápidos">
-  <h3 class="ql-title">Acessos Rápidos</h3>
-  <p class="ql-sub">Perfis e plataformas</p>
-
-  <div class="ql-buttons">
-    <a href="https://steamcommunity.com/id/seu-usuario" target="_blank" rel="noopener noreferrer" class="ql-btn">
-      <i class="fab fa-steam"></i><span>Meu perfil na Steam</span>
-    </a>
-
-    <a href="https://retroarch.example/usuario" target="_blank" rel="noopener noreferrer" class="ql-btn">
-      <i class="fas fa-gamepad"></i><span>Meu perfil no RetroArch</span>
-    </a>
-  </div>
-</div>
-
-
-        </aside>
-
-        <main id="list-main-area" class="list-main-area">
-            
-            <section class="game-list-wrapper">
-                <div id="game-cover-preview" class="game-cover-preview">
-                    <img src="" alt="Capa do Jogo" id="preview-image">
-                </div>
-
-                <div class="list-sections-container">
-                    
-                    <div id="section-jogando" class="status-section">
-                        <h2>Jogando</h2>
-                        <div class="game-list-container">
-                            <div class="list-header">
-                                <div class="col-icon">#</div>
-                                <div class="col-title">Título</div>
-                                <div class="col-score">Nota</div>
-                                <div class="col-year">Ano</div>
-                                <div class="col-progress">Progresso</div>
-                            </div>
-                            <div id="games-jogando" class="games-body"></div>
-                        </div>
-                    </div>
-
-                    <div id="section-zerados" class="status-section">
-                        <h2>Completos</h2>
-                        <div class="game-list-container">
-                            <div class="list-header">
-                                <div class="col-icon">#</div>
-                                <div class="col-title">Título</div>
-                                <div class="col-score">Nota</div>
-                                <div class="col-year">Ano</div>
-                                <div class="col-progress">Progresso</div>
-                            </div>
-                            <div id="games-zerados" class="games-body"></div>
-                        </div>
-                    </div>
-
-                                        <div id="section-semfim" class="status-section">
-                        <h2>Sem Fim</h2>
-                        <div class="game-list-container">
-                            <div class="list-header">
-                                <div class="col-icon">#</div>
-                                <div class="col-title">Título</div>
-                                <div class="col-score">Nota</div>
-                                <div class="col-year">Ano</div>
-                                <div class="col-progress">Progresso</div>
-                            </div>
-                            <div id="games-semfim" class="games-body"></div>
-                        </div>
-                    </div>
-
-                                                            <div id="section-dlc" class="status-section">
-                        <h2>DLCs</h2>
-                        <div class="game-list-container">
-                            <div class="list-header">
-                                <div class="col-icon">#</div>
-                                <div class="col-title">Título</div>
-                                <div class="col-score">Nota</div>
-                                <div class="col-year">Ano</div>
-                                <div class="col-progress">Progresso</div>
-                            </div>
-                            <div id="games-dlc" class="games-body"></div>
-                        </div>
-                    </div>
-
-                    <div id="section-ports" class="status-section">
-                        <h2>Outros Ports</h2>
-                        <div class="game-list-container">
-                            <div class="list-header">
-                                <div class="col-icon">#</div>
-                                <div class="col-title">Título</div>
-                                <div class="col-score">Nota</div>
-                                <div class="col-year">Ano</div>
-                                <div class="col-progress">Progresso</div>
-                            </div>
-                            <div id="games-ports" class="games-body"></div>
-                        </div>
-                    </div>
-
-                                        <div id="section-col" class="status-section">
-                        <h2>Coleções</h2>
-                        <div class="game-list-container">
-                            <div class="list-header">
-                                <div class="col-icon">#</div>
-                                <div class="col-title">Título</div>
-                                <div class="col-score">Nota</div>
-                                <div class="col-year">Ano</div>
-                                <div class="col-progress">Progresso</div>
-                            </div>
-                            <div id="games-col" class="games-body"></div>
-                        </div>
-                    </div>
-
-                    <div id="section-pausado" class="status-section">
-                        <h2>Pausado</h2>
-                        <div class="game-list-container">
-                            <div class="list-header">
-                                <div class="col-icon">#</div>
-                                <div class="col-title">Título</div>
-                                <div class="col-score">Nota</div>
-                                <div class="col-year">Ano</div>
-                                <div class="col-progress">Progresso</div>
-                            </div>
-                            <div id="games-pausado" class="games-body"></div>
-                        </div>
-                    </div>
-
-                    <div id="section-dropados" class="status-section">
-                        <h2>Dropados</h2>
-                        <div class="game-list-container">
-                            <div class="list-header">
-                                <div class="col-icon">#</div>
-                                <div class="col-title">Título</div>
-                                <div class="col-score">Nota</div>
-                                <div class="col-year">Ano</div>
-                                <div class="col-progress">Progresso</div>
-                            </div>
-                            <div id="games-dropados" class="games-body"></div>
-                        </div>
-                    </div>
-
-                    <div id="section-backlog" class="status-section">
-                        <h2>Backlog</h2>
-                        <div class="game-list-container">
-                            <div class="list-header">
-                                <div class="col-icon">#</div>
-                                <div class="col-title">Título</div>
-                                <div class="col-score">Nota</div>
-                                <div class="col-year">Ano</div>
-                                <div class="col-progress">Progresso</div>
-                            </div>
-                            <div id="games-backlog" class="games-body"></div>
-                        </div>
-                    </div>
-
-                    <div id="section-playlist" class="status-section">
-                        <h2>Playlist</h2>
-                        <div class="game-list-container">
-                            <div class="list-header">
-                                <div class="col-icon">#</div>
-                                <div class="col-title">Título</div>
-                                <div class="col-score">Nota</div>
-                                <div class="col-year">Ano</div>
-                                <div class="col-progress">Progresso</div>
-                            </div>
-                            <div id="games-playlist" class="games-body"></div>
-                        </div>
-                    </div>
-                    
-                </div>
-            </section>
-        </main>
-    </div>
+    <section class="grid-container">
     
-    <script src="app.js"></script>
-</body>
+    <a href="/kissutina/page/lista.html" class="grid-item w-12 h-8">     
+        <img src="/kissutina/midia/LiSTA.png" alt="Imagem Alta">
+        <div class="overlay">Legenda ou Ícone</div> </a>
+
+    <a href="/kissutina/page/estatisticas.html" class="grid-item w-4 h-8">
+        <img src="/kissutina/midia/ESTATÌSTICAS.png" alt="Imagem Quadrada">
+    </a>
+
+    <a href="/kissutina/page/favs.html" class="grid-item w-8 h-8">
+        <img src="/kissutina/midia/FAVORITOS.png" alt="Imagem Grande">
+    </a>
+
+    <a href="/kissutina/page/perfil.html" class="grid-item w-8 h-4">
+        <img src="/kissutina/midia/PEFIS.png" alt="Imagem Larga">
+    </a>
+
+        <a href="/kissutina/page/roadmap.html" class="grid-item w-8 h-4">
+        <img src="/kissutina/midia/ROADMAP.png" alt="Imagem Larga">
+    </a>
+
+    </section>
+
+    
+
+    
+
+
+
 </html>

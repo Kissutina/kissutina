@@ -1,0 +1,480 @@
+:root{
+   /* CORES PRINCIPAIS */ 
+   --cor-cinza-escuro: #333536;
+   --cor-cinza-claro: #b0b8bf;
+   --cor-principal: #22b9cf;
+   --cor-secundária: #1c82a8;
+   --cor-destaque: 	#a50f5e
+}
+
+body {
+  background-color: var(--cor-cinza-escuro);
+}
+
+/* #2 HEADER *//* #2 HEADER *//* #2 HEADER */
+/* #2 HEADER *//* #2 HEADER *//* #2 HEADER */
+/* #2 HEADER *//* #2 HEADER *//* #2 HEADER */
+
+.header {
+
+    font-family: 'Montserrat', sans-serif; /* Usando a fonte que sugerimos antes */
+    display: flex; /* Ativa os superpoderes de alinhamento */
+    justify-content: space-between; /* Empurra um pra esquerda, outro pra direita */
+    align-items: center; /* Garante que fiquem alinhados na altura (meio vertical) */
+    
+    padding: 10px 20%; /* Espaço interno: 20px em cima/baixo, 40px nos lados */
+    background-color: var(--cor-secundária); /* Fundo preto ou transparente */
+    margin: 10px;
+    margin-left: 10% ;
+    margin-right: 10%;
+    z-index: 50;
+    box-sizing: border-box;
+    border-color: var(--cor-cinza-escuro);
+    border-radius: 40px;    
+}
+
+/* 2. O LOGO */
+.logo img {
+    height: 50px; /* Define a altura, a largura ajusta automático */
+    display: block; /* Remove espaços extras */
+    border-radius: 10px;
+}
+
+/* 3. O MENU (A lista de links) */
+.menu ul {
+    display: flex; /* Coloca os itens da lista um ao lado do outro */
+    gap: 30px;     /* Espaço entre cada link */
+    list-style: none; /* Remove as bolinhas da lista */
+    margin: 0;
+    padding: 0;
+}
+
+/* 4. OS LINKS (O texto clicável) */
+.menu a {
+    text-decoration: none; /* Remove o sublinhado azul feio */
+    color: white;           /* Cor do texto */
+    font-size: 1rem;
+    font-weight: 700;
+    transition: 0.3s;      /* Suaviza a mudança de cor */
+}
+
+/* Efeito quando passa o mouse */
+.menu a:hover {
+    color: var(--cor-cinza-escuro); /* Fica cinza claro */
+}
+
+    /* --- ORGANIZAÇÃO BÁSICA --- */
+    /* --- ORGANIZAÇÃO BÁSICA --- */
+    /* --- ORGANIZAÇÃO BÁSICA --- */
+
+    .main-content-wrapper {
+        max-width: 1200px; /* Largura máxima do seu conteúdo */
+        margin: 30px auto;
+        padding: 0 20px;
+        display: flex; /* Habilita layout em coluna */
+        gap: 30px; /* Espaço entre a sidebar e a lista */
+        align-items: flex-start; /* Garante que tudo comece no topo */   
+    }
+
+/* ACABOU A HEADER */
+/* ACABOU A HEADER */
+/* ACABOU A HEADER */
+
+.parallax-bg {
+    /* O SEGREDO: Fixed prende na tela, não na página */
+    position: fixed; 
+    top: 0;
+    left: 0;
+    
+    /* Ocupa a tela toda para podermos centralizar a imagem dentro dele */
+    width: 100vw;
+    height: 100vh;
+    
+    /* Centraliza a imagem perfeitamente no meio da tela */
+    display: flex;
+    justify-content: center; /* Alinha horizontalmente */
+    align-items: center;     /* Alinha verticalmente */
+    
+    pointer-events: none;    /* Deixa clicar através da imagem */
+    z-index: 0;             /* Garante que fique acima (ou use -1 para trás) */
+}
+
+.parallax-bg img {
+    width: 520px;
+    max-width: 80vw;
+    
+    /* Removemos margens e positions antigos pois o Flexbox do pai já resolve */
+    display: block;
+
+    /* Sua animação continua aqui */
+    animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+    /* Ajustei levemente para ela flutuar EM TORNO do centro, 
+       mantendo seus scales originais */
+    0%   { transform: translate(500px, 360px)   scale(1.5); }
+    50%  { transform: translate(500px, 340px)  scale(1.5); }
+    100% { transform: translate(500px, 360px)   scale(1.5); }
+}
+
+
+
+
+    /* --- LISTA --- */
+        /* --- LISTA --- */
+            /* --- LISTA --- */
+
+    .list-main-area {
+    flex-grow: 1; /* Ocupa todo o espaço restante */
+    min-width: 600px; /* Evita que a lista fique muito estreita */
+    position: relative;
+    z-index: 2;
+
+
+
+}
+ 
+            
+    .game-list-container {
+    background-color: var(--cor-cinza-claro);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    max-width: 1000px;
+    overflow: hidden;
+    margin: 0px; /* É A DISTANCIA DA BORDA DA LISTA ATÈ AS OUTRAS COISAS */
+    padding: 0px; /* É A DISTANCIA DAS BORDAS ATÉ O CONTEÚDO COMEÇAR */
+    flex-grow: 1; /* Faz a lista ocupar o espaço restante */
+}
+
+.list-header, .game-row {
+    font-family: 'Montserrat', sans-serif; /* Usando a fonte que sugerimos antes */
+    display: grid;
+    /* Define o layout das colunas: Ícone/Título (peso maior), Nota, Ano, Progresso */
+    grid-template-columns: 70px 1fr 100px 80px 100px;
+    padding: 10px 5px 10px 5px;
+    align-items: center;
+    
+}
+
+    /* Ajuste específico para o ícone, se necessário, para garantir que a imagem esteja centralizada */
+.col-icon {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente o ícone */
+    align-items: center;
+}
+
+/* Centraliza o texto nas colunas numéricas (HEADER) */
+.list-header .col-icon,
+.list-header .col-score,
+.list-header .col-year,
+.list-header .col-progress {
+    text-align: center;
+}
+
+/* Centraliza o texto nas colunas numéricas (LINHAS DE JOGOS) */
+.game-row .col-icon,
+.game-row .col-score,
+.game-row .col-year,
+.game-row .col-progress {
+    /* Alinha o texto das colunas para os dados */
+    text-align: center;
+        color: var(--cor-txt-cinza);
+}
+
+.list-header {
+    background-color: var(--cor-secundária);
+    font-weight: bold;
+    font-size: 0.9em;
+    color: #ffffff;
+    
+}
+
+/* Linha de Jogo (Interativa) */
+.game-row {
+    cursor: pointer;
+    transition: background-color 0.2s;
+    
+}
+
+.game-row:hover {
+    background-color: #8d9399;
+}   
+/* --- COLUNA ESQUERDA (SIDEBAR) --- */
+
+/* Colunas Específicas */
+.col-icon img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+
+    /* NOVO: Wrapper para a lista e a capa */
+.game-list-wrapper {
+    display: flex; /* Para alinhar a capa e a lista lado a lado */
+    gap: 20px; /* Espaço entre a capa e a lista */
+    max-width: 1200px; /* Aumenta a largura total se necessário */
+    margin: 0 auto; /* Centraliza o wrapper */
+    position: relative; /* Importante para o posicionamento da capa */
+    align-items: flex-start; /* Alinha os itens no topo */
+}
+
+.list-sections-container {
+    flex-grow: 1; /* Ocupa o espaço principal ao lado da capa de preview */
+}
+
+/* Estilo para cada seção de status */
+.status-section {
+    margin-bottom: 40px; /* Espaço entre as diferentes listas de status */
+    padding-left: 5px;
+}
+
+.status-section h2 {
+    font-family: 'Montserrat', sans-serif; /* Usando a fonte que sugerimos antes */
+    color: var(--cor-secundária);
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-left: 20px;
+    
+}
+
+    .hidden {
+    display: none !important;
+    }
+
+    .game-row .col-score,
+    .game-row .col-year,
+    .game-row .col-progress {
+        display: flex; /* Transforma a coluna em flexbox */
+        justify-content: center; /* Centraliza horizontalmente o bloco de destaque */
+        align-items: center; /* Centraliza verticalmente */
+        padding: 5px 0; /* Remove padding lateral desnecessário se estiver atrapalhando */
+    }
+
+    .game-row .col-title {
+            font-family: 'Montserrat', sans-serif; /* Usando a fonte que sugerimos antes */
+        color: black
+    }
+
+    .data-highlight {
+        display: inline-block; /* Permite que o background se ajuste ao conteúdo */
+        padding: 4px 8px; /* Espaçamento interno */
+        font-weight: bold; /* Deixa o texto em negrito */
+        background-color: var(--cor-secundária); /* Usa a cor de fundo mais clara (como o cabeçalho) */
+        border-radius: 10px;
+        color: black;
+        min-width: 40px; /* Garante uma largura mínima para padronização */
+        text-align: center; /* Centraliza o texto dentro do bloco */
+    }
+
+
+
+    /* --- ÁREA DOS FILTROS --- */
+    /* --- ÁREA DOS FILTROS --- */
+    /* --- ÁREA DOS FILTROS --- */
+
+    .search-input {
+        width: 100%;
+        padding: 10px 15px;
+        /* ... (mantenha os estilos de cor/borda/foco existentes) ... */
+        margin-bottom: 10px; /* Espaço abaixo da barra de pesquisa */
+    }
+
+    .sidebar-filters {
+        width: 250px; /* Largura fixa para a barra de filtros */
+        flex-shrink: 0; /* Impede que a sidebar diminua */
+        top: 20px; /* Distância do topo ao fixar */
+        
+    }
+
+    .filter-select:focus {
+        outline: none;
+    }
+
+    .filter-select {
+
+        display: block;
+        width: 100%;
+        padding: 10px 15px;
+        margin-top: 15px; /* Espaço entre o botão 100% e o select */
+        font-size: 16px;
+        border-radius: 10px;
+        cursor: pointer;
+        appearance: none; /* Remove o estilo padrão do SO */
+        align-items: center;
+        text-decoration: none;
+        border: none;
+
+
+        
+        /* CRUCIAIS PARA O DARK MODE E PARA TIRAR O ESTILO PADRÃO: */
+        color: white; /* Texto branco */
+        appearance: none; /* Remove a seta padrão do navegador */
+        
+        background-color: var(--cor-secundária);
+        height: 40px;
+}
+
+    .filter-area {
+    max-width: 1200px;
+    margin: 0 auto 30px auto;
+    padding: 10px; /* Padding interno da sidebar */
+    margin: 0;
+    padding: 12px;
+    color: white;
+    overflow: hidden;
+    backdrop-filter: blur(6px); /* desfoca o fundo por trás (opcional) */
+    -webkit-backdrop-filter: blur(6px);
+        
+    }
+
+    .search-box-fa {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 0 15px;
+    background: var(--cor-secundária);
+    width: 100%;
+    max-width: 196px;
+    height: 40px;
+    margin-bottom: 15px; /* Ajuste o valor conforme necessário */
+    }
+
+    .search-box-fa i {
+    color: white; /* Branco com 70% de opacidade */
+    font-size: 16px;
+    margin-right: 10px;
+    flex-shrink: 0;
+    }
+
+    .search-box-fa input {
+    border: none;
+    margin-left: -2px;
+    margin-top: 9px;
+    font-size: 16px;
+    outline: none;
+    background: transparent;
+    height: 100%; /* Ocupa 100% da altura do container */
+    color: white;
+    }
+
+    .search-box-fa input::placeholder {
+    color: rgba(255, 255, 255, 0.7); /* Branco com 70% de opacidade */
+    opacity: 1; /* Importante para alguns navegadores */
+    }
+
+    /* --- CAPA DOS JOGOS --- */
+    /* --- CAPA DOS JOGOS --- */
+    /* --- CAPA DOS JOGOS --- */
+
+    .game-cover-preview {
+        /* REMOVA: position: fixed; left: 20px; top: 50%; transform: translateY(-50%); */
+        position: absolute; /* Agora é absoluto em relação ao game-list-wrapper */
+        left: -280px; /* Posição à esquerda, 20px de margem + 200px de largura da capa */
+        width: 180px; /* Largura da capa */
+        height: 250px; /* Altura da capa */
+        background-color: var(--cor-destaque);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+        overflow: hidden;
+        opacity: 0;
+        visibility: hidden;
+        z-index: 100;
+        pointer-events: none;
+        border: 1px solid black;
+        transition: opacity 0.15s ease, transform 0.15s ease;
+        transform: translateY(0); /* Mantém centralização vertical */
+    }
+
+    .game-cover-preview img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    .game-cover-preview.show {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    /* --- ÁREA DA REVIEW --- */
+    /* --- ÁREA DA REVIEW --- */
+    /* --- ÁREA DA REVIEW --- */
+
+    .review-content.show { /* ISSO AQUI É O QUE PERMITE A EXPANÇÃO */
+    display: block;
+    }
+
+    .review-text {
+        text-align: justify; /* justifica o texto */
+        background: var(--cor-secundária); /* fundo escuro e translúcido */
+        padding: 14px 16px;
+        line-height: 1.5;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        border: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .review-info {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        padding-top: 10px;
+        font-size: 0.9rem;
+    }
+
+    .review-info p {
+        margin: 0;
+        background: var(--cor-secundária);
+        padding: 6px 10px;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        border-radius: 10px;
+    }
+
+    .review-info i {
+        color: black;
+        width: 18px;
+        text-align: center;
+    }
+
+    .review-content {
+        display: none;
+        grid-column: 1 / -1;
+        padding: 2px 15px 20px;
+        background-color:#8d9399; 
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);   
+    }
+
+    .review-text,
+    .review-info,
+    .review-info p {
+        font-family: 'Montserrat', sans-serif;
+        color: black;
+    }
+
+
+    /* Sidebar normal (desktop) */
+
+/* Mobile */
+@media (max-width: 968px) {
+    .sidebar-filters {
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 100vh;
+        background: #111;
+        z-index: 1000;
+
+        transform: translateX(-100%);
+    }
+
+    .sidebar-filters.open {
+        transform: translateX(0);
+    }
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roadmap - My Game Hub</title>
+    <style>
+        
+        body {
+            font-family: sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+            background-color: #333536;
+            color: #333;
+        }
+
+        h1 { border-bottom: 2px solid #333; padding-bottom: 10px; }
+        
+        .categoria {
+            background: #1c82a8;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .status {
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            padding: 2px 6px;
+            border-radius: 4px;
+            margin-right: 10px;
+        }
+
+        /* Cores de Status */
+        .status-backlog { background: #ddd; color: #666; } /* Planejado */
+        .status-doing { background: #ffd700; color: #000; } /* Fazendo */
+        .status-done { background: #2ecc71; color: #fff; }    /* Pronto */
+
+        ul { list-style: none; padding: 0; }
+        li { 
+            padding: 10px 0; 
+            border-bottom: 1px solid #eee; 
+            display: flex;
+            align-items: center;
+        }
+        
+        li:last-child { border-bottom: none; }
+
+        .desc { font-size: 0.9rem; color: #fff; margin-left: 10px; }
+
+        /* --- O QUE VOCÊ PEDIU --- */
+        footer {
+            margin-top: 40px;
+            padding-bottom: 50px;
+        }
+
+        footer a {
+            color: white; /* Cor branca */
+            text-decoration: none; /* Remove o sublinhado */
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            text-decoration: underline; /* Adiciona sublinhado apenas quando passa o mouse */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Roadmap de Atualizações</h1>
+        <p>Acompanhamento de novas funcionalidades e melhorias do site.</p>
+    </header>
+
+    <div class="categoria">
+        <ul>
+            <li>
+                <span class="status status-done">Concluído</span> 
+                <strong>Lançar a Versão 2.0</strong> 
+                <span class="desc"></span>
+            </li>
+            <li>
+                <span class="status status-doing">Em progresso</span> 
+                <strong>Página de Portifólio</strong> 
+                <span class="desc">- Eu desenho, sabia?</span>
+            </li>            <li>
+                <span class="status status-doing">Em progresso</span> 
+                <strong>Escrever / Revisar todas as Reviews</strong> 
+                <span class="desc">- Estranho... Revisar as Reviews</span>
+            </li>
+            <li>
+                <span class="status status-backlog">Pendente</span> 
+                <strong>Creditar todos os artistas</strong> 
+                <span class="desc">- Quero ter o direito de usar todas as imagens no site</span>
+            </li>            <li>
+                <span class="status status-backlog">Pendente</span> 
+                <strong>Newsletter</strong> 
+                <span class="desc">- Uma página que funcione como um 'relatório' da semana</span>
+            </li>
+            <li>
+                <span class="status status-backlog">Pendente</span> 
+                <strong>Novas Tags</strong> 
+                <span class="desc"></span>
+            </li>
+                        <li>
+                <span class="status status-backlog">Pendente</span> 
+                <strong>Páginas Específicas pra cada Jogo</strong> 
+                <span class="desc"></span>
+            </li>
+            <li>
+                <span class="status status-backlog">Pendente</span> 
+                <strong>Domínio Próprio</strong> 
+                <span class="desc"></span>
+            </li>
+            <li>
+                <span class="status status-backlog">Pendente</span> 
+                <strong>Otimizar a Visualização em Celulares</strong> 
+                <span class="desc"></span>
+            </li>
+            <li>
+                <span class="status status-backlog">Pendente</span> 
+                <strong>Refinar o Código</strong> 
+                <span class="desc"></span>
+            </li>
+        </ul>
+    </div>
+
+    <footer>
+        <p><a href="../index.html">← Voltar para a Home</a></p>
+    </footer>
+
+</body>
+</html>
