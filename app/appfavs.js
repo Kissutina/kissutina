@@ -76,10 +76,10 @@
                     { nome: "Solid Snake", img: "https://static.wikia.nocookie.net/metalgear/images/5/5d/Metal_Gear_Solid_256204.jpg", desc: "Eu sinto culpa de gostar do Snake, não sei se ele foi feito pra ser gostado, e como to incluindo todas as versões dele, o Venon Snake definitivamente não é um herói, mas aquela cena dele passando as cinzas na cara, ou o chifre dele crescendo, é bom demais" },
                     { nome: "Bocchi", img: "https://cdn-images.dzcdn.net/images/cover/ac55efc4ef57091a9c78df30e06e6869/0x1900-000000-80-0-0.jpg",zoom: 1.285 , desc: "Tirando o talento, ela é igualzinha a mim, aliás ela ta ocupando o espaço de todos os personagens de Keion, Lucky Star e derivados desses Slice of Life de Cute Girls Doing Cute Things que eu assisti MUITO quando era menorzinho." },
                     { nome: "Link", img: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/the-legend-of-zelda-breath-of-the-wild-2/3/38/Link2.png", desc: "Não sei exatamente por que eu gosto do Link, acho que é um amor ao jogo que acaba passando pro personagem, não, sei, só acho que faz muito sentido ele estar aqui." },
-                    { nome: "Zelda", img: "/fotos/zeldarafa.png", desc: "E tudo isso que falei pro Link se aplica pra Zelda também...<br>Arte pelo meu amigo Rafa" },
+                    { nome: "Zelda", img: "/kissutina/midia/zeldarafa.png", desc: "E tudo isso que falei pro Link se aplica pra Zelda também...<br>Arte pelo meu amigo Rafa" },
                     { nome: "Hornet", img: "https://cdn.wikimg.net/en/hkwiki/images/5/57/SoSpromo1.jpg", desc: "Hornet, eu te esperei por tempo demais" },
                     { nome: "Luffy", img: "https://static.wikia.nocookie.net/onepiece/images/1/17/Monkey_D._Luffy%27s_Seventh_Wanted_Poster.png",zoom: 1.05, desc: "Pra mim o Luffy sempre foi mais um protagonista de Shonen, isso até o Gear 5. As palhaçadas do Nika me fizeram feliz durante as torturantes aulas de Cálculo 1" },
-                    { nome: "Frieren", img: "/fotos/frieren.png", desc: "Eu realmente não sei se a Frieren merecia um espaço no meu top 10. Depois penso melhor nisso." }
+                    { nome: "Frieren", img: "/kissutina/midia/frieren.png", desc: "Eu realmente não sei se a Frieren merecia um espaço no meu top 10. Depois penso melhor nisso." }
                     ]
             },            {
                 category: "Animes Favoritos",
@@ -153,7 +153,7 @@
                     { 
                         premio: "Stardew Valley",  // Título que aparece em cima
                         nome: "Abigail", 
-                        img: "/kissutina/midia/Abby.png",
+                        img: "/kissutina/midia/abby.png",
                         desc: "..." 
                     },
                     { 
@@ -313,4 +313,5 @@
         section.appendChild(header);
         section.appendChild(grid);
         app.appendChild(section);
+
     });
